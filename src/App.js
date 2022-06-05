@@ -1,7 +1,7 @@
 import './App.css'
 
 function App() {
-  let text = "Hey there";
+  let text = "Hello there";
 
   return (
     <div className="App">
