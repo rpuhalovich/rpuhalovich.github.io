@@ -3,6 +3,8 @@ import { useRef } from 'react';
 
 import './App.css'
 
+import Hero from './views/Hero';
+
 function App() {
   const parallaxRef = useRef();
 
@@ -13,22 +15,29 @@ function App() {
   }
 
   return (
-    <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: '0', left: '0' }}>
-      <ParallaxLayer offset={0}>
-        <p className='H1'>Hero</p>
-        <button onClick={() => scroll(1)}>click to scroll</button>
-      </ParallaxLayer>
+    <div className='hidesb1 hidesb2'>
+      <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: '0', left: '0' }}>
+        <ParallaxLayer offset={0}>
+          <Hero />
+        </ParallaxLayer>
 
-      <ParallaxLayer offset={1}>
-        <p className='H1'>Projects</p>
-        <button onClick={() => scroll(2)}>click to scroll</button>
-      </ParallaxLayer>
+        <ParallaxLayer offset={1}>
+          <h2>Projects</h2>
+        </ParallaxLayer>
 
-      <ParallaxLayer offset={2}>
-        <p className='H1'>About</p>
-        <button onClick={() => scroll(0)}>click to scroll</button>
-      </ParallaxLayer>
-    </Parallax>
+        <ParallaxLayer offset={2}>
+          <h3>About</h3>
+        </ParallaxLayer>
+
+        {/* Lower navigation buttons. */}
+        <ParallaxLayer sticky={{ start: 0, end: 2 }}>
+          <button onClick={() => scroll(0)}>scroll to hero</button>
+          <button onClick={() => scroll(1)}>scroll to projects</button>
+          <button onClick={() => scroll(2)}>scroll to about</button>
+        </ParallaxLayer>
+      </Parallax>
+
+    </div>
   );
 }
 

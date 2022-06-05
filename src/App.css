@@ -23,36 +23,47 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.H1 {
+h1 {
     font-size: 7.063rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.H2 {
+h2 {
     font-size: 5rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.H3 {
+h3 {
     font-size: 3.563rem;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }
 
-.H4 {
+h4 {
     font-size: 2.5rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.H5 {
+h5 {
     font-size: 1.75rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
-.App {
-    color: var(--Black);
+body {
+    background: var(--Black);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hidesb1::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidesb2 {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
