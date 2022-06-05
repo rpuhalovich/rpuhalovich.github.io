@@ -1,7 +1,9 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 
 import './App.css'
+
+import NavButton from './views/components/NavButton';
 
 import Hero from './views/Hero';
 
@@ -16,7 +18,7 @@ function App() {
 
   return (
     <div className='hidesb1 hidesb2'>
-      <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: '0', left: '0' }}>
+      <Parallax enabled={false} horizontal ref={parallaxRef} pages={3} style={{ top: '0', left: '0' }}>
         <ParallaxLayer offset={0}>
           <Hero />
         </ParallaxLayer>
@@ -29,11 +31,10 @@ function App() {
           <h3>About</h3>
         </ParallaxLayer>
 
-        {/* Lower navigation buttons. */}
-        <ParallaxLayer sticky={{ start: 0, end: 2 }}>
-          <button onClick={() => scroll(0)}>scroll to hero</button>
-          <button onClick={() => scroll(1)}>scroll to projects</button>
-          <button onClick={() => scroll(2)}>scroll to about</button>
+        <ParallaxLayer className='bottom-buttons' sticky={{ start: 0, end: 2 }}>
+          <NavButton onClick={() => scroll(0)}/>
+          <NavButton onClick={() => scroll(1)}/>
+          <NavButton onClick={() => scroll(2)}/>
         </ParallaxLayer>
       </Parallax>
 

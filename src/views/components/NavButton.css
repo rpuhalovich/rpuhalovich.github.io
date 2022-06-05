@@ -1,0 +1,8 @@
+.button {
+    --dimension: 20px;
+    height: var(--dimension);
+    width: var(--dimension);
+    border-radius: var(--dimension);
+    margin: var(--dimension);
+    background-color: white;
+}

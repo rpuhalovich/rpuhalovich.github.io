@@ -23,6 +23,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "off",
+      "react/prop-types": "off"
+    },
     "extends": [
       "react-app",
       "react-app/jest"

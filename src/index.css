@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Poppins:wght@300;600&display=swap');
+
+/* --- Globals --- */
+
+:root {
+    --Primary:   #A11D6A;
+    --Secondary: #951FFF;
+    --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)))
+    --Error:     #E00248;
+
+    --Black:     #262626;
+    --Black75:   #666666;
+    --Black50:   #A6A6A6;
+    --Black25:   #E6E6E6;
+    --Black10:   #F2F2F2;
+}
+
+.Monospace {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.Paragraph {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 7.063rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h3 {
+    font-size: 3.563rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background: var(--Black);
+}
