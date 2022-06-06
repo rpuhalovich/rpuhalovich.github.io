@@ -29,10 +29,6 @@
   color: var(--Black25);
 }
 
-.page-label {
-  transform: translate(-45vw, 30vh) rotate(-90deg);
-}
-
 h1 {
   font-size: 7.063rem;
   font-weight: 600;
@@ -70,6 +66,7 @@ h5 {
 
 body {
   background: var(--Black);
+   scrollbar-width: none;
 }
 
 * {
