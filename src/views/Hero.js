@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './Hero.css';
+import "./Hero.css";
 
 function Hero() {
   return (
-    <div className='title'>
-        <h1>Hero</h1>
+    <div className="title">
+      <h1>Hero</h1>
     </div>
   );
 }
 
-export default Hero
+export default Hero;

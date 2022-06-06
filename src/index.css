@@ -1,76 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Poppins:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Poppins:wght@300;600&display=swap");
 
 /* --- Globals --- */
 
 :root {
-    --Primary:   #A11D6A;
-    --Secondary: #951FFF;
-    --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)))
-    --Error:     #E00248;
+  --Primary: #a11d6a;
+  --Secondary: #951fff;
+  --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)));
+  --Error: #e00248;
 
-    --Black:     #262626;
-    --Black75:   #666666;
-    --Black50:   #A6A6A6;
-    --Black25:   #E6E6E6;
-    --Black10:   #F2F2F2;
+  --Black: #262626;
+  --Black75: #666666;
+  --Black50: #a6a6a6;
+  --Black25: #e6e6e6;
+  --Black10: #f2f2f2;
 }
 
 .Monospace {
-    font-size: 0.875rem;
-    font-weight: 300;
-    font-family: 'JetBrains Mono', monospace;
-    color: var(--Black25);
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--Black25);
 }
 
 .Paragraph {
-    font-size: 0.875rem;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    color: var(--Black25);
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: var(--Black25);
+}
+
+.page-label {
+  transform: translate(-45vw, 30vh) rotate(-90deg);
 }
 
 h1 {
-    font-size: 7.063rem;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-size: 7.063rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 h2 {
-    font-size: 5rem;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 h3 {
-    font-size: 3.563rem;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-size: 3.563rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 h4 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 h5 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+  font-size: 1.75rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 body {
-    background: var(--Black);
+  background: var(--Black);
 }
 
-*{
-    -ms-overflow-style: none;
+* {
+  -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }

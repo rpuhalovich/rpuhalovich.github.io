@@ -19,6 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "prettier": "prettier --write . --print-width 140 --tab-width 2 --arrow-parens \"always\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }

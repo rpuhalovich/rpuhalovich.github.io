@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from "react";
 
-import './NavButton.css';
+import "./NavButton.css";
 
 function NavButton(props) {
-    const {onClick} = props;
-    return (
-        <div className='button' onClick={onClick} />
-    );
+  const { onClick } = props;
+  return <div className="button" onClick={onClick} />;
 }
 
 export default NavButton;
