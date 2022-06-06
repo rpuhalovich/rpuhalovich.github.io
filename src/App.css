@@ -1,6 +1,5 @@
 .bottom-buttons {
     display: flex;
-    justify-content: space-evenly;
-    height: 64px;
+    justify-content: space-around;
     align-items: flex-end;
 }

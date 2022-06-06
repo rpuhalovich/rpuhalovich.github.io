@@ -1,5 +1,5 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 import './App.css'
 
@@ -31,6 +31,7 @@ function App() {
           <h3>About</h3>
         </ParallaxLayer>
 
+        {/* Lower navigation buttons. */}
         <ParallaxLayer className='bottom-buttons' sticky={{ start: 0, end: 2 }}>
           <NavButton onClick={() => scroll(0)}/>
           <NavButton onClick={() => scroll(1)}/>
