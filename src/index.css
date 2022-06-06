@@ -16,11 +16,17 @@
 }
 
 .Monospace {
+    font-size: 0.875rem;
+    font-weight: 300;
     font-family: 'JetBrains Mono', monospace;
+    color: var(--Black25);
 }
 
 .Paragraph {
+    font-size: 0.875rem;
+    font-weight: 300;
     font-family: 'Poppins', sans-serif;
+    color: var(--Black25);
 }
 
 h1 {
@@ -60,4 +66,11 @@ h5 {
 
 body {
     background: var(--Black);
+}
+
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
 }
