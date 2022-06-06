@@ -1,11 +1,12 @@
+import "./App.css";
+
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useRef } from "react";
-
-import "./App.css";
 
 import SideLabel from "./views/components/SideLabel";
 import NavButton from "./views/components/NavButton";
 
+import About from "./views/About";
 import Hero from "./views/Hero";
 import Projects from "./views/Projects";
 
@@ -21,17 +22,8 @@ function App() {
   return (
     <div className="hidesb1 hidesb2">
       {/* // TODO: Implement side scroll snapping. */}
-      <Parallax
-        horizontal
-        ref={parallaxRef}
-        pages={3}
-        style={{
-          top: "0",
-          left: "0",
-          scrollSnapType: "x mandatory",
-          overflowX: "scroll",
-        }}
-      >
+      <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: "0", left: "0", scrollSnapType: "x mandatory", overflowX: "scroll", }} >
+
         {/* background */}
         <ParallaxLayer speed={1} style={{ scrollSnapAlign: "start" }}>
           <img alt="" src={"../res/layer1.svg"} />
@@ -49,7 +41,7 @@ function App() {
 
         <ParallaxLayer offset={2} style={{ scrollSnapAlign: "start" }}>
           <SideLabel text="About" />
-          <h3>About</h3>
+          <About />
         </ParallaxLayer>
 
         {/* Lower navigation buttons. */}

@@ -1,6 +1,6 @@
-import React from "react";
-
 import "./NavButton.css";
+
+import React from "react";
 
 function NavButton(props) {
   const { onClick } = props;
