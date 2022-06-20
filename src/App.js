@@ -1,6 +1,3 @@
-import "./App.css";
-
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useRef } from "react";
 
 import SideLabel from "./views/components/SideLabel";
@@ -10,47 +7,36 @@ import About from "./views/About";
 import Hero from "./views/Hero";
 import Projects from "./views/Projects";
 
+import "./App.css";
+
 function App() {
-  const parallaxRef = useRef();
-
-  const scroll = (to) => {
-    if (parallaxRef.current) {
-      parallaxRef.current.scrollTo(to);
-    }
-  };
-
   return (
     <div className="hidesb1 hidesb2">
-      {/* // TODO: Implement side scroll snapping. */}
-      <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: "0", left: "0", scrollSnapType: "x mandatory", overflowX: "scroll", }} >
+      {/* TODO: Implement side scroll snapping. */}
+      <div className="parent">
 
-        {/* background */}
-        <ParallaxLayer speed={1} style={{ scrollSnapAlign: "start" }}>
-          <img alt="" src={"../res/layer1.svg"} />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={0}>
+        <section>
           <SideLabel text="Hero" />
           <Hero />
-        </ParallaxLayer>
+        </section>
 
-        <ParallaxLayer offset={1} style={{ scrollSnapAlign: "start" }}>
+        <section>
           <SideLabel text="Projects" />
           <Projects />
-        </ParallaxLayer>
+        </section>
 
-        <ParallaxLayer offset={2} style={{ scrollSnapAlign: "start" }}>
+        <section>
           <SideLabel text="About" />
           <About />
-        </ParallaxLayer>
+        </section>
 
         {/* Lower navigation buttons. */}
-        <ParallaxLayer className="bottom-buttons" sticky={{ start: 0, end: 2 }}>
+        {/* <div className="bottom-buttons">
           <NavButton onClick={() => scroll(0)} />
           <NavButton onClick={() => scroll(1)} />
           <NavButton onClick={() => scroll(2)} />
-        </ParallaxLayer>
-      </Parallax>
+        </div> */}
+      </div>
     </div>
   );
 }

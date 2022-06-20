@@ -64,9 +64,12 @@ h5 {
   color: white;
 }
 
-body {
+html, body {
   background: var(--Black);
-   scrollbar-width: none;
+  scrollbar-width: none;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow: hidden;
 }
 
 * {
