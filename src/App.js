@@ -30,12 +30,6 @@ function App() {
           <SideLabel text="Projects" />
           <Projects />
 
-          {/* Lower navigation buttons. */}
-          <div className="bottom-buttons">
-            <NavButton onClick={() => scrollToSection(heroSection)} />
-            <NavButton onClick={() => scrollToSection(projectsSection)} />
-            <NavButton onClick={() => scrollToSection(aboutSection)} />
-          </div>
         </section>
 
         <section ref={aboutSection}>
@@ -43,6 +37,12 @@ function App() {
           <About />
         </section>
 
+        {/* Lower navigation buttons. */}
+        <div className="bottom-buttons">
+          <NavButton onClick={() => scrollToSection(heroSection)} />
+          <NavButton onClick={() => scrollToSection(projectsSection)} />
+          <NavButton onClick={() => scrollToSection(aboutSection)} />
+        </div>
       </div>
     </div>
   );
