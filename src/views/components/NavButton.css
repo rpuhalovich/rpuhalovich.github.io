@@ -1,6 +1,5 @@
 .button {
   --dimension: 20px;
-  --dimension-hover: 25px;
   height: var(--dimension);
   width: var(--dimension);
   margin-bottom: 20px;
@@ -12,6 +11,4 @@
 .button:hover {
   --dimension-hover: 25px;
   background-color: white;
-  /* height: var(--dimension-hover); */
-  /* width: var(--dimension-hover); */
 }

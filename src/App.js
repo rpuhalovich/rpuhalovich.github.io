@@ -15,12 +15,15 @@ function App() {
   const aboutSection = useRef(null);
 
   const scrollToSection = (ref) => {
-    document.getElementById("parent").scrollTo({ left: ref.current.offsetLeft, behavior: "smooth" });
+    document.getElementById("section-container").scrollTo({
+      left: ref.current.offsetLeft,
+      behavior: "smooth",
+    });
   };
 
   return (
-    <div className="hidesb1 hidesb2">
-      <div id="parent" className="parent">
+    <div className="parent-container hidesb1 hidesb2">
+      <div id="section-container" className="section-container">
         <section ref={heroSection}>
           <SideLabel text="Hero" />
           <Hero />
@@ -36,13 +39,12 @@ function App() {
           <SideLabel text="About" />
           <About />
         </section>
+      </div>
 
-        {/* Lower navigation buttons. */}
-        <div className="bottom-buttons">
-          <NavButton onClick={() => scrollToSection(heroSection)} />
-          <NavButton onClick={() => scrollToSection(projectsSection)} />
-          <NavButton onClick={() => scrollToSection(aboutSection)} />
-        </div>
+      <div className="bottom-buttons">
+        <NavButton onClick={() => scrollToSection(heroSection)} />
+        <NavButton onClick={() => scrollToSection(projectsSection)} />
+        <NavButton onClick={() => scrollToSection(aboutSection)} />
       </div>
     </div>
   );
