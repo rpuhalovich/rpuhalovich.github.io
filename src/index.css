@@ -64,9 +64,11 @@ h5 {
   color: white;
 }
 
-body {
+html, body {
   background: var(--Black);
   scrollbar-width: none;
+  scroll-behavior: smooth;
+  height: 100vh;
 }
 
 * {

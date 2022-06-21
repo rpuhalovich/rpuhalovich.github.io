@@ -1,4 +1,3 @@
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useRef } from "react";
 
 import SideLabel from "./views/components/SideLabel";
@@ -11,45 +10,42 @@ import Projects from "./views/Projects";
 import "./App.css";
 
 function App() {
-  const parallaxRef = useRef();
+  const heroSection = useRef(null);
+  const projectsSection = useRef(null);
+  const aboutSection = useRef(null);
 
-  const scroll = (to) => {
-    if (parallaxRef.current) {
-      parallaxRef.current.scrollTo(to);
-    }
+  const scrollToSection = (ref) => {
+    document.getElementById("section-container").scrollTo({
+      left: ref.current.offsetLeft,
+      behavior: "smooth",
+    });
   };
 
   return (
-    <div className="hidesb1 hidesb2">
-      {/* // TODO: Implement side scroll snapping. */}
-      <Parallax horizontal ref={parallaxRef} pages={3} style={{ top: "0", left: "0", scrollSnapType: "x mandatory", overflowX: "scroll" }}>
-        {/* background */}
-        <ParallaxLayer speed={1} style={{ scrollSnapAlign: "start" }}>
-          <img alt="" src={"../res/layer1.svg"} />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={0}>
+    <div className="parent-container hidesb1 hidesb2">
+      <div id="section-container" className="section-container">
+        <section ref={heroSection}>
           <SideLabel text="Hero" />
           <Hero />
-        </ParallaxLayer>
+        </section>
 
-        <ParallaxLayer offset={1} style={{ scrollSnapAlign: "start" }}>
+        <section ref={projectsSection}>
           <SideLabel text="Projects" />
           <Projects />
-        </ParallaxLayer>
 
-        <ParallaxLayer offset={2} style={{ scrollSnapAlign: "start" }}>
+        </section>
+
+        <section ref={aboutSection}>
           <SideLabel text="About" />
           <About />
-        </ParallaxLayer>
+        </section>
+      </div>
 
-        {/* Lower navigation buttons. */}
-        <ParallaxLayer className="bottom-buttons" sticky={{ start: 0, end: 2 }}>
-          <NavButton onClick={() => scroll(0)} />
-          <NavButton onClick={() => scroll(1)} />
-          <NavButton onClick={() => scroll(2)} />
-        </ParallaxLayer>
-      </Parallax>
+      <div className="bottom-buttons">
+        <NavButton onClick={() => scrollToSection(heroSection)} />
+        <NavButton onClick={() => scrollToSection(projectsSection)} />
+        <NavButton onClick={() => scrollToSection(aboutSection)} />
+      </div>
     </div>
   );
 }
