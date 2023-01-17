@@ -25,14 +25,13 @@ function App() {
     <div className="parent-container hidesb1 hidesb2">
       <div id="section-container" className="section-container">
         <section ref={heroSection}>
-          <SideLabel text="Hero" />
+          <SideLabel text="Test" />
           <Hero />
         </section>
 
         <section ref={projectsSection}>
           <SideLabel text="Projects" />
           <Projects />
-
         </section>
 
         <section ref={aboutSection}>
