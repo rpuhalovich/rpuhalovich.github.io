@@ -9,6 +9,8 @@
   --Error: #e00248;
 
   --Black: #262626;
+  --Black90: #333333;
+  --Black80: #444444;
   --Black75: #666666;
   --Black50: #a6a6a6;
   --Black25: #e6e6e6;
@@ -64,7 +66,8 @@ h5 {
   color: white;
 }
 
-html, body {
+html,
+body {
   background: var(--Black);
   scrollbar-width: none;
   scroll-behavior: smooth;
