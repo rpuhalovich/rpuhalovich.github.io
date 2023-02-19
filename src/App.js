@@ -8,18 +8,30 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="app-grid-container">
-        <div className="nameButton">
-          <RPButton onClick={() => alert("Hey there.")}>rpuhalovich.github.com</RPButton>
-        </div>
+      <div className="appGridContainer">
+        <section className="view1 viewBounds appGridChild">
+          <div className="headerContainer">
+            <div className="header">
+              {/* TODO: use media queries to make mobile friendly */}
+              <p className="h3">
+                <span className="h5">#</span>Ryan Puhalovich
+              </p>
+              {/* <p className="h5"><span className="h6">##</span>Algorithms Are Fun</p> */}
+            </div>
+          </div>
+        </section>
 
-        <br />
+        <section className="view2 viewBounds appGridChild">
+          <div className="card">
+            <RPCard>
+              <p>Hey there from inside a p tag.</p>
+            </RPCard>
+          </div>
+        </section>
 
-        <div className="testCard">
-          <RPCard>
-            <p>Hey there from inside a p tag.</p>
-          </RPCard>
-        </div>
+        <section className="view3 viewBounds appGridChild">
+          <RPButton onClick={() => window.open("https://github.com/rpuhalovich")}>Github</RPButton>
+        </section>
       </div>
     </>
   );
