@@ -78,7 +78,7 @@ body {
   background: var(--Black);
   scrollbar-width: none;
   scroll-behavior: smooth;
-  height: 100vh;
+  height: calc(100vh - 40px);
 }
 
 * {
