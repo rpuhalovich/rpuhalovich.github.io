@@ -18,19 +18,21 @@ export default function App() {
             </div>
           </div>
         </section>
-      </div>
 
-      {/* <section className="view2 viewBounds appGridChild">
-          <div className="card">
-            <RPCard>
-              <p>Hey there from inside a p tag.</p>
-            </RPCard>
+        <section className="view2">
+          <div className="cardContainer">
+            <div className="card">
+              <RPCard>
+                <p>Hey there from inside a p tag.</p>
+              </RPCard>
+            </div>
           </div>
         </section>
 
-        <section className="view3 viewBounds appGridChild">
+        <section className="view3">
           <RPButton onClick={() => window.open("https://github.com/rpuhalovich")}>Github</RPButton>
-        </section> */}
+        </section>
+      </div>
     </>
   );
 }
