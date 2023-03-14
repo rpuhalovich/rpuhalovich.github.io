@@ -10,9 +10,13 @@ export default function App() {
     <>
       <div className="appGridContainer">
         <section className="view1">
-          <p className="h3">
-            <span className="h5">#</span>Ryan Puhalovich
-          </p>
+          <div className="headerContainer">
+            <div className="header">
+              <p className="h3">
+                <span className="h5">#</span>Ryan Puhalovich
+              </p>
+            </div>
+          </div>
         </section>
       </div>
 
