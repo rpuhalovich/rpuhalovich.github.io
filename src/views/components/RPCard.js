@@ -3,10 +3,10 @@ import React from "react";
 import "./RPCard.css";
 
 function RPCard(props) {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
     <>
-      <div className="RPCard Monospace" {...rest}>
+      <div className={`RPCard Monospace ${className}`} {...rest}>
         {children}
       </div>
     </>

@@ -14,9 +14,6 @@
 .view2 {
   grid-column-start: 2;
   grid-column-end: 12;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
 }
 
 .view3 {
@@ -35,12 +32,14 @@
   margin-bottom: 8em;
 }
 
-.cardContainer {
-  grid-row-start: 2;
-  grid-row-end: 7;
+.cardGap {
+  margin-top: 2em;
 }
 
-.card {
-  width: 100%;
-  height: 100%;
+.bottomCard {
+  margin-bottom: 2em;
+}
+
+.buttonGap {
+  margin-left: 2em;
 }

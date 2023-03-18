@@ -11,4 +11,5 @@
 .RPButton:hover {
   background-color: var(--Black80);
   transition: 0.2s;
+  cursor: pointer;
 }

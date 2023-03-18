@@ -24,7 +24,8 @@
   color: var(--Black25);
 }
 
-.Paragraph {
+.Paragraph,
+p {
   font-size: 0.875rem;
   font-weight: 300;
   font-family: "Poppins", sans-serif;

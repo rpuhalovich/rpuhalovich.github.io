@@ -20,10 +20,13 @@ export default function App() {
         </section>
 
         <section className="view2">
-          <div className="cardContainer">
-            <div className="card">
-              <RPCard>
-                <p>Hey there from inside a p tag.</p>
+          <div>
+            <RPCard>
+              <p>Hey there from inside a p tag.</p>
+            </RPCard>
+            <div className="bottomCard">
+              <RPCard className="cardGap">
+                <p>Hey there from inside another p tag.</p>
               </RPCard>
             </div>
           </div>
@@ -31,6 +34,13 @@ export default function App() {
 
         <section className="view3">
           <RPButton onClick={() => window.open("https://github.com/rpuhalovich")}>Github</RPButton>
+          <RPButton className="buttonGap" onClick={() => window.open("https://github.com/rpuhalovich")}>
+            Linkedin
+          </RPButton>
+          <p>This is a sample about.</p>
+          <RPCard>
+            <p>This is a sample about.</p>
+          </RPCard>
         </section>
       </div>
     </>
