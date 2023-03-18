@@ -15,6 +15,8 @@
   --Black50: #a6a6a6;
   --Black25: #e6e6e6;
   --Black10: #f2f2f2;
+
+  --cornerRadius: 0.5em;
 }
 
 .Monospace {

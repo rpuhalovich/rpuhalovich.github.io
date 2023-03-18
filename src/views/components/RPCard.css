@@ -2,6 +2,6 @@
   height: 512px;
   color: var(--Black10);
   background-color: var(--Black90);
-  border-radius: 0.24em;
+  border-radius: var(--cornerRadius);
   padding: 2em;
 }
