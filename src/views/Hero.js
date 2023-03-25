@@ -4,9 +4,14 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="title">
-      <h4>Ryan Puhalovich</h4>
-    </div>
+    <>
+      <p className="h3 header">
+        <span className="h5">#</span>Ryan Puhalovich
+      </p>
+      <p className="subHeader">
+        <span className="">#</span> Software Dev
+      </p>
+    </>
   );
 }
 

@@ -5,6 +5,7 @@
 }
 
 .view1 {
+  /* background-color: brown; */
   grid-column-start: 2;
   grid-column-end: 12;
   display: table;
@@ -12,11 +13,13 @@
 }
 
 .view2 {
+  /* background-color: aqua; */
   grid-column-start: 2;
   grid-column-end: 12;
 }
 
 .view3 {
+  /* background-color: burlywood; */
   grid-column-start: 4;
   grid-column-end: 10;
   display: table;
@@ -32,26 +35,18 @@
   vertical-align: middle;
 }
 
-.headerContainer {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.header {
-  margin-bottom: 0px;
-}
-
-.subHeader {
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-family: "Poppins", sans-serif;
-  color: var(--Black75);
-
-  margin-top: 0px;
-}
-
 .cardGap {
   margin-top: 2em;
+}
+
+.cardContainer {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .bottomCard {
@@ -68,7 +63,7 @@
   height: var(--imgDimension);
   width: var(--imgDimension);
   padding: 2em;
-  border-radius: var(--cornerRadius);
+  border-radius: var(--CornerRadius);
   margin-right: 2em;
 }
 

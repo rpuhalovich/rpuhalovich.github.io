@@ -2,6 +2,7 @@ import React from "react";
 
 import RPButton from "./views/components/RPButton";
 import RPCard from "./views/components/RPCard";
+import Hero from "./views/Hero";
 
 import "./App.css";
 
@@ -11,22 +12,14 @@ export default function App() {
       <div className="appGridContainer">
         <section className="view1">
           <div className="headerContainer">
-            <p className="h3 header">
-              <span className="h5">#</span>Ryan Puhalovich
-            </p>
-            <p className="subHeader">
-              <span className="">#</span> Software Dev
-            </p>
+            <Hero />
           </div>
         </section>
 
         <section className="view2">
-          <div>
-            <RPCard className="cardGap">
+          <div className="cardsContainer">
+            <RPCard className="cardContainer">
               <p>Hey there from inside a p tag.</p>
-            </RPCard>
-            <RPCard className="cardGap bottomCard">
-              <p>Hey there from inside another p tag.</p>
             </RPCard>
           </div>
         </section>
@@ -49,9 +42,6 @@ export default function App() {
                 <RPButton className="buttonGap" onClick={() => window.open("https://github.com/rpuhalovich")}>
                   Linkedin
                 </RPButton>
-                {/* <RPButton className="buttonGap" onClick={() => window.open("mailto:reanpuhalovich@gmail.com")}>
-                  Email
-                </RPButton> */}
               </div>
             </div>
           </div>

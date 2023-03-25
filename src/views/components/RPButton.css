@@ -1,7 +1,7 @@
 .RPButton {
   color: var(--Black10);
   background-color: var(--Black90);
-  border-radius: 0.24em;
+  border-radius: var(--CornerRadius);
   padding: 1em;
   border-color: var(--Black10);
   border-style: none;
