@@ -1,0 +1,48 @@
+.about {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.flexDirection {
+  flex-flow: column;
+}
+
+@media screen and (min-width: 1000px) {
+  .flexDirection {
+    flex-flow: row;
+  }
+
+  .imgRightGap {
+    margin-right: 2em;
+  }
+
+  .centerText {
+    text-align: left;
+  }
+}
+
+.aboutContainer {
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tmpimg {
+  background-color: coral;
+  --imgDimension: 12em;
+  height: var(--imgDimension);
+  width: var(--imgDimension);
+  padding: 2em;
+  border-radius: var(--CornerRadius);
+}
+
+.buttonGap {
+  margin-left: 2em;
+}

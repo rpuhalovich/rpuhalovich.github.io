@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 550px) {
   .titleFontSize {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -18,7 +18,7 @@
 }
 
 .subHeader {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   color: var(--Black75);

@@ -5,12 +5,21 @@
 }
 
 .headerContainer {
-  display: table-cell;
-  vertical-align: middle;
+  /* background-color: rgb(51, 62, 72); */
+  /* display: table-cell; */
+  /* vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  max-width: 1000px;
+  width: 100%;
 }
 
 .view1 {
-  /* background-color: brown; */
   grid-column-start: 2;
   grid-column-end: 12;
   display: table;
@@ -18,26 +27,14 @@
 }
 
 .view2 {
-  /* background-color: aqua; */
   grid-column-start: 2;
   grid-column-end: 12;
 }
 
 .view3 {
-  /* background-color: burlywood; */
   grid-column-start: 4;
   grid-column-end: 10;
-  display: table;
   height: 100vh;
-}
-
-.aboutContainer {
-  display: table;
-}
-
-.about {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .cardGap {
@@ -56,22 +53,4 @@
 
 .bottomCard {
   margin-bottom: 2em;
-}
-
-.buttonGap {
-  margin-left: 2em;
-}
-
-.tmpimg {
-  background-color: coral;
-  --imgDimension: 12em;
-  height: var(--imgDimension);
-  width: var(--imgDimension);
-  padding: 2em;
-  border-radius: var(--CornerRadius);
-  margin-right: 2em;
-}
-
-.aboutContentContainer {
-  display: flex;
 }
