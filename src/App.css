@@ -4,6 +4,11 @@
   grid-column-gap: 10px;
 }
 
+.headerContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .view1 {
   /* background-color: brown; */
   grid-column-start: 2;

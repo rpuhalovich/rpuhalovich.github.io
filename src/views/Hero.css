@@ -1,12 +1,12 @@
-/* .title {
-  text-align: center;
-} */
-
 .header {
   margin-bottom: 0px;
 }
 
-.headerContainer {
-  display: table-cell;
-  vertical-align: middle;
+.subHeader {
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: var(--Black75);
+
+  margin-top: 0px;
 }
