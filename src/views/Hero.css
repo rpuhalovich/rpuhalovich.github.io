@@ -1,3 +1,18 @@
+.titleFontSize {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 550px) {
+  .titleFontSize {
+    font-size: 3rem;
+  }
+}
+
+.title {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
 .header {
   margin-bottom: 0px;
 }
