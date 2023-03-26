@@ -34,13 +34,17 @@
   align-items: center;
 }
 
-.tmpimg {
+.selfie {
   background-color: coral;
   --imgDimension: 12em;
   height: var(--imgDimension);
   width: var(--imgDimension);
   padding: 2em;
   border-radius: var(--CornerRadius);
+
+  aspect-ratio: 4000/4000;
+  background-size: cover;
+  background-image: url("./../res/goodPhoto.jpg");
 }
 
 .buttonGap {

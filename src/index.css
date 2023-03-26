@@ -84,7 +84,7 @@ p {
 
 html,
 body {
-  background: var(--Black);
+  background: #000000;
   scrollbar-width: none;
   scroll-behavior: smooth;
   /* height: calc(100vh - 40px); */

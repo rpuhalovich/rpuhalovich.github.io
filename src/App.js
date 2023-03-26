@@ -72,7 +72,6 @@ export default function App() {
           </section>
         </div>
       </div>
-      {/* <div className="wave" /> */}
     </>
   );
 }

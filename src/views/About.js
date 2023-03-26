@@ -10,7 +10,7 @@ function About() {
       <div className="about">
         <div className="aboutContainer flexDirection">
           <div>
-            <div className="tmpimg imgRightGap" />
+            <div className="selfie imgRightGap" />
           </div>
           <div className="centerText">
             <p>
