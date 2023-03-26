@@ -24,52 +24,55 @@ export default function App() {
   }, []);
 
   return (
-    <div onScroll={handleScroll}>
-      <div className="appGridContainer">
-        <div className="downArrowContainer">
-          {showArrow ? (
-            <ExpandMoreIcon className="downArrow fadeInArrow" />
-          ) : (
-            <ExpandMoreIcon className="downArrow fadeOutArrow" />
-          )}
-        </div>
+    <>
+      <div onScroll={handleScroll}>
+        <div className="appGridContainer wave">
+          <div className="downArrowContainer">
+            {showArrow ? (
+              <ExpandMoreIcon className="downArrow fadeInArrow" />
+            ) : (
+              <ExpandMoreIcon className="downArrow fadeOutArrow" />
+            )}
+          </div>
 
-        <section className="view1">
-          <div className="headerContainer">
-            <div className="header">
-              <Hero />
+          <section className="view1">
+            <div className="headerContainer">
+              <div className="header">
+                <Hero />
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="view2">
-          <div className="cardsContainer">
-            <RPCard className="blueCard">
-              <p>Hey there from a blue card.</p>
-            </RPCard>
-          </div>
-        </section>
+          <section className="view2">
+            <div className="cardsContainer">
+              <RPCard className="blueCard">
+                <p>Hey there from a blue card.</p>
+              </RPCard>
+            </div>
+          </section>
 
-        <section className="view2">
-          <div className="cardsContainer">
-            <RPCard className="blueCard cardGap">
-              <p>Hey there from a blue card.</p>
-            </RPCard>
-          </div>
-        </section>
+          <section className="view2">
+            <div className="cardsContainer">
+              <RPCard className="blueCard cardGap">
+                <p>Hey there from a blue card.</p>
+              </RPCard>
+            </div>
+          </section>
 
-        <section className="view2">
-          <div className="cardsContainer">
-            <RPCard className="blueCard cardGap">
-              <p>Hey there from a blue card.</p>
-            </RPCard>
-          </div>
-        </section>
+          <section className="view2">
+            <div className="cardsContainer">
+              <RPCard className="blueCard cardGap">
+                <p>Hey there from a blue card.</p>
+              </RPCard>
+            </div>
+          </section>
 
-        <section className="view3 aboutContainer">
-          <About />
-        </section>
+          <section className="view3 aboutContainer">
+            <About />
+          </section>
+        </div>
       </div>
-    </div>
+      {/* <div className="wave" /> */}
+    </>
   );
 }
