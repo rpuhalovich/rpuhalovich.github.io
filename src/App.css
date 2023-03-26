@@ -9,19 +9,29 @@
   height: 100%;
 }
 
-.downArrow {
-  color: white;
-  font-size: 5rem;
-
+.fadeInArrow {
   opacity: 0;
   animation: fadein ease-in 1s forwards;
   animation-delay: 2s;
-  /* animation-delay: 0s; */
-
   position: fixed;
   top: 95%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.fadeOutArrow {
+  opacity: 1;
+  animation: fadeout ease-in 1s forwards;
+  animation-delay: 0s;
+  position: fixed;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.downArrow {
+  color: white;
+  font-size: 5rem;
 }
 
 .headerContainer {
@@ -37,6 +47,15 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 

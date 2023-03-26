@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import RPCard from "./views/components/RPCard";
@@ -8,11 +8,30 @@ import About from "./views/About";
 import "./App.css";
 
 export default function App() {
+  const [showArrow, setShowArrow] = useState(true);
+
+  const handleScroll = (e) => {
+    if (window.screenY !== 0) {
+      setShowArrow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <>
+    <div onScroll={handleScroll}>
       <div className="appGridContainer">
         <div className="downArrowContainer">
-          <ExpandMoreIcon className="downArrow" />
+          {showArrow ? (
+            <ExpandMoreIcon className="downArrow fadeInArrow" />
+          ) : (
+            <ExpandMoreIcon className="downArrow fadeOutArrow" />
+          )}
         </div>
 
         <section className="view1">
@@ -51,6 +70,6 @@ export default function App() {
           <About />
         </section>
       </div>
-    </>
+    </div>
   );
 }
