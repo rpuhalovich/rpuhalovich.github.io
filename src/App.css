@@ -11,9 +11,22 @@
   height: 100vh;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .header {
   max-width: 1000px;
   width: 100%;
+
+  opacity: 0;
+  animation: fadein ease-in 1s forwards;
+  animation-delay: var(--TransitionTime);
 }
 
 .view1 {
