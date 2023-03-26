@@ -13,7 +13,7 @@ function About() {
             <div className="selfie imgRightGap" />
           </div>
           <div className="centerText">
-            <p>
+            <p className="Paragraph">
               Aliqua commodo deserunt tempor nulla non ut proident consequat esse laborum nostrud. Dolore laboris
               consequat enim commodo ipsum minim. Amet magna eu cupidatat sint in veniam Lorem ex. Fugiat ea ea sit sint
               anim voluptate aliquip officia do. Do incididunt excepteur nulla ipsum deserunt laboris dolore officia

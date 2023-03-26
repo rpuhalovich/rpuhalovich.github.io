@@ -35,12 +35,17 @@
 }
 
 .selfie {
-  background-color: coral;
+  /* background-color: coral; */
+
   --imgDimension: 12em;
   height: var(--imgDimension);
   width: var(--imgDimension);
   padding: 2em;
   border-radius: var(--CornerRadius);
+
+  --outline-size: 2px;
+  outline: var(--outline-size) solid white;
+  outline-offset: calc(var(--outline-size) * -1);
 
   aspect-ratio: 4000/4000;
   background-size: cover;
