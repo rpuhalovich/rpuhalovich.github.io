@@ -5,11 +5,11 @@
   padding: 1em;
   border-color: var(--Black10);
   border-style: none;
-  transition: 0.2s;
+  transition: var(--TransitionTime);
 }
 
 .RPButton:hover {
   background-color: var(--Black80);
-  transition: 0.2s;
+  transition: var(--TransitionTime);
   cursor: pointer;
 }

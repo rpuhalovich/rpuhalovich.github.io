@@ -17,6 +17,11 @@
   --Black10: #f2f2f2;
 
   --CornerRadius: 0.5em;
+
+  --CardHeight: 512px;
+  --CardWidth: min(1024px, 100%);
+
+  --TransitionTime: 0.2s;
 }
 
 .Monospace {

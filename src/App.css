@@ -5,9 +5,6 @@
 }
 
 .headerContainer {
-  /* background-color: rgb(51, 62, 72); */
-  /* display: table-cell; */
-  /* vertical-align: middle; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,12 +35,7 @@
 }
 
 .cardGap {
-  margin-top: 2em;
-}
-
-.cardContainer {
-  max-width: 1000px;
-  width: 100%;
+  margin-top: 32px;
 }
 
 .cardsContainer {
@@ -51,14 +43,13 @@
   justify-content: center;
 }
 
-.bottomCard {
-  margin-bottom: 2em;
-}
-
 .blueCard {
-  background-color: rgb(43, 70, 94);
+  background-color: rgb(63, 50, 94);
+  transition: var(--TransitionTime);
 }
 
-.redCard {
-  background-color: rgb(94, 43, 43);
+.blueCard:hover {
+  background-color: rgb(71, 53, 104);
+  transition: var(--TransitionTime);
+  cursor: pointer;
 }

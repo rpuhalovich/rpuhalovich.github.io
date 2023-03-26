@@ -1,5 +1,7 @@
 .RPCard {
-  height: 512px;
+  height: var(--CardHeight);
+  width: var(--CardWidth);
+
   color: var(--Black10);
   background-color: var(--Black90);
   border-radius: var(--CornerRadius);

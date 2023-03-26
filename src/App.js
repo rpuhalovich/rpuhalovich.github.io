@@ -20,14 +20,24 @@ export default function App() {
 
         <section className="view2">
           <div className="cardsContainer">
-            <RPCard className="cardContainer blueCard">
+            <RPCard className="blueCard">
               <p>Hey there from a blue card.</p>
             </RPCard>
           </div>
+        </section>
 
-          <div className="cardsContainer cardGap">
-            <RPCard className="cardContainer redCard">
-              <p>Hey there from a red card.</p>
+        <section className="view2">
+          <div className="cardsContainer">
+            <RPCard className="blueCard cardGap">
+              <p>Hey there from a blue card.</p>
+            </RPCard>
+          </div>
+        </section>
+
+        <section className="view2">
+          <div className="cardsContainer">
+            <RPCard className="blueCard cardGap">
+              <p>Hey there from a blue card.</p>
             </RPCard>
           </div>
         </section>
