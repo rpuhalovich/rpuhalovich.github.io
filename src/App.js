@@ -1,4 +1,5 @@
 import React from "react";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import RPCard from "./views/components/RPCard";
 import Hero from "./views/Hero";
@@ -10,6 +11,10 @@ export default function App() {
   return (
     <>
       <div className="appGridContainer">
+        <div className="downArrowContainer">
+          <ExpandMoreIcon className="downArrow" />
+        </div>
+
         <section className="view1">
           <div className="headerContainer">
             <div className="header">
