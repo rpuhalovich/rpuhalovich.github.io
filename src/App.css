@@ -79,6 +79,9 @@
   grid-column-start: 2;
   grid-column-end: 12;
   min-height: 100vh;
+  /* background-color: var(--Black90); */
+  padding: 32px;
+  border-radius: var(--CornerRadius);
 }
 
 .view3 {
@@ -99,21 +102,26 @@
 .oglpImage {
   height: 100%;
   width: max-content;
+  margin-right: 2em;
   /* border-radius: var(--CornerRadius); */
+  box-shadow: 1px 2px 8px var(--Black90);
 }
 
 .oglpContainer {
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .oglp {
-  background-color: rgb(26, 26, 26);
+  background-color: #971fff78;
   transition: var(--TransitionTime);
 }
 
 .oglp:hover {
-  background-color: rgb(30, 30, 30);
+  background-color: #971fff69;
   transition: var(--TransitionTime);
   cursor: pointer;
 }

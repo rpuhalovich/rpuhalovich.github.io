@@ -17,7 +17,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -27,7 +27,7 @@ export default function App() {
   return (
     <>
       <div onScroll={handleScroll}>
-        <div className="appGridContainer">
+        <div className="appGridContainer wave">
           <div className="downArrowContainer" onClick={() => window.scrollByPages(1)}>
             {showArrow ? (
               <ExpandMoreIcon className="downArrow fadeInArrow" />
@@ -58,6 +58,11 @@ export default function App() {
                     width="1291"
                     height="715"
                   />
+                  <div>
+                    <h3>OpenGL Pathfinder</h3>
+                    <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
+                    <p className="Monospace">C++;OpenGL</p>
+                  </div>
                 </div>
               </RPCard>
             </div>

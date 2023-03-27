@@ -6,10 +6,10 @@ function Hero() {
   return (
     <>
       <p className="title titleFontSize header">
-        <span className="h5">#</span> Ryan Puhalovich
+        <span className="h5 smolSpace">#</span>Ryan Puhalovich
       </p>
       <p className="subHeader">
-        <span className="">#</span> Software Dev
+        <span className="smolSpace">#</span>Software Dev
       </p>
     </>
   );

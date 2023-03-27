@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Poppins:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap");
 
 /* --- Globals --- */
 
@@ -19,7 +20,7 @@
   --CornerRadius: 0.5em;
 
   --CardHeight: 128px;
-  --CardWidth: min(1024px, 100%);
+  --CardWidth: min(1280px, 100%);
 
   --TransitionTime: 0.2s;
   --FadeTime: 0.5s;
@@ -48,14 +49,14 @@
 p {
   font-size: 1rem;
   font-weight: 100;
-  font-family: "Poppins", sans-serif;
+  font-family: "JetBrains Mono", monospace;
   color: white;
 }
 
 .h1 {
   font-size: 7.063rem;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "JetBrains Mono", monospace;
   color: white;
 }
 
