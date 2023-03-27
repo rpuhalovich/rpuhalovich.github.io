@@ -52,11 +52,11 @@ export default function App() {
             <div className="cardsContainer">
               <RPCard className="oglp">
                 <div
-                  className="cardContainer"
+                  className="cardContainer flexDirection"
                   onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
                 >
                   <img
-                    className="oglpImage"
+                    className="cardImage cardImageSize"
                     src={require("./res/openGLPathfinder.png")}
                     alt="OpenGL Pathfinder"
                     width="1291"
@@ -77,7 +77,13 @@ export default function App() {
                   className="cardContainer"
                   onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
                 >
-                  <img src={require("./res/loap.png")} alt="life_of_a_programmer.exe" width="1920" height="1080" />
+                  <img
+                    className="cardImage cardImageSize"
+                    src={require("./res/loap.png")}
+                    alt="life_of_a_programmer.exe"
+                    width="1920"
+                    height="1080"
+                  />
                   <div>
                     <h3>life_of_a_programmer.exe</h3>
                     <p>A metaphorical game about running through code to catch the bug at the end of the level.</p>
@@ -90,7 +96,13 @@ export default function App() {
             <div className="cardsContainer marginTop2em">
               <RPCard className="vpeq">
                 <div className="cardContainer" onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}>
-                  <img src={require("./res/vpeq.png")} alt="VPEQ" width="640" height="650" />
+                  <img
+                    className="cardImage cardImageSize"
+                    src={require("./res/vpeq.png")}
+                    alt="VPEQ"
+                    width="640"
+                    height="650"
+                  />
                   <div>
                     <h3>VPEQ</h3>
                     <p>A parametric equalizer made using the VSTSDK framework.</p>
@@ -103,7 +115,13 @@ export default function App() {
             <div className="cardsContainer marginTop2em">
               <RPCard className="rayTracer">
                 <div className="cardContainer" onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}>
-                  <img src={require("./res/raytracer.png")} alt="C# Ray Tracer" width="640" height="650" />
+                  <img
+                    className="cardImage cardImageSize"
+                    src={require("./res/raytracer.png")}
+                    alt="C# Ray Tracer"
+                    width="640"
+                    height="650"
+                  />
                   <div>
                     <h3>C# Ray Tracer</h3>
                     <p>A ray tracer written in C#.</p>

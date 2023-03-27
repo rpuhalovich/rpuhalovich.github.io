@@ -1,9 +1,19 @@
 .RPCard {
-  height: var(--CardHeight);
+  /* height: var(--CardHeight); */
   width: var(--CardWidth);
 
   color: var(--Black10);
   background-color: var(--Black90);
   border-radius: var(--CornerRadius);
   padding: 2em;
+}
+
+.cardHeight {
+  height: var(--CardHeightNarrow);
+}
+
+@media screen and (min-width: 750px) {
+  .cardHeight {
+    height: var(--CardHeight);
+  }
 }
