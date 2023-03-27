@@ -78,10 +78,7 @@
 .view2 {
   grid-column-start: 2;
   grid-column-end: 12;
-  min-height: 100vh;
-  /* background-color: var(--Black90); */
   padding: 32px;
-  border-radius: var(--CornerRadius);
 }
 
 .view3 {
@@ -99,15 +96,7 @@
   justify-content: center;
 }
 
-.oglpImage {
-  height: 100%;
-  width: max-content;
-  margin-right: 2em;
-  /* border-radius: var(--CornerRadius); */
-  box-shadow: 1px 2px 8px var(--Black90);
-}
-
-.oglpContainer {
+.cardContainer {
   height: 100%;
   width: 100%;
   display: flex;
@@ -116,12 +105,45 @@
 }
 
 .oglp {
-  background-color: #971fff78;
+  background-color: #2d2d2d78;
   transition: var(--TransitionTime);
 }
 
 .oglp:hover {
+  background-color: #2a2a2a69;
+  transition: var(--TransitionTime);
+  cursor: pointer;
+}
+
+.loap {
+  background-color: #971fff78;
+  transition: var(--TransitionTime);
+}
+
+.loap:hover {
   background-color: #971fff69;
+  transition: var(--TransitionTime);
+  cursor: pointer;
+}
+
+.rayTracer {
+  background-color: #c500488d;
+  transition: var(--TransitionTime);
+}
+
+.rayTracer:hover {
+  background-color: #c500486a;
+  transition: var(--TransitionTime);
+  cursor: pointer;
+}
+
+.vpeq {
+  background-color: #bbbbbb78;
+  transition: var(--TransitionTime);
+}
+
+.vpeq:hover {
+  background-color: #a7a7a769;
   transition: var(--TransitionTime);
   cursor: pointer;
 }

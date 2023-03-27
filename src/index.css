@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Poppins:wght@300;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;400;500;700;800&display=swap");
 
 /* --- Globals --- */
 
@@ -26,6 +25,13 @@
   --FadeTime: 0.5s;
 }
 
+img {
+  height: 100%;
+  width: max-content;
+  margin-right: 2em;
+  box-shadow: 1px 2px 8px var(--Black);
+}
+
 .whiteOutline {
   --outline-size: 2px;
   outline: var(--outline-size) solid white;
@@ -38,6 +44,10 @@
   outline-offset: calc(var(--outline-size) * -1);
 }
 
+.marginTop2em {
+  margin-top: 2em;
+}
+
 .Monospace {
   font-size: 0.875rem;
   font-weight: 300;
@@ -47,7 +57,7 @@
 
 .Paragraph,
 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 100;
   font-family: "JetBrains Mono", monospace;
   color: white;
@@ -69,7 +79,7 @@ p {
 
 .h3 {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 1000;
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -97,7 +107,7 @@ p {
 
 html,
 body {
-  background: #262626;
+  background: #111111;
   scrollbar-width: none;
   scroll-behavior: smooth;
   /* height: calc(100vh - 40px); */
