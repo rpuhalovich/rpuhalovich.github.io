@@ -13,12 +13,7 @@ function About() {
             <div className="selfie imgRightGap" />
           </div>
           <div className="centerText">
-            <p className="Paragraph">
-              Aliqua commodo deserunt tempor nulla non ut proident consequat esse laborum nostrud. Dolore laboris
-              consequat enim commodo ipsum minim. Amet magna eu cupidatat sint in veniam Lorem ex. Fugiat ea ea sit sint
-              anim voluptate aliquip officia do. Do incididunt excepteur nulla ipsum deserunt laboris dolore officia
-              sit. Nostrud commodo excepteur anim ea ex occaecat laboris non nisi adipisicing nulla.
-            </p>
+            <p className="Paragraph">Just a guy who likes to tinker with computers.</p>
 
             <RPButton onClick={() => window.open("https://github.com/rpuhalovich")}>GitHub</RPButton>
             <RPButton className="buttonGap" onClick={() => window.open("https://www.linkedin.com/in/ryan-puhalovich/")}>

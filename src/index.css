@@ -18,11 +18,23 @@
 
   --CornerRadius: 0.5em;
 
-  --CardHeight: 512px;
+  --CardHeight: 128px;
   --CardWidth: min(1024px, 100%);
 
   --TransitionTime: 0.2s;
   --FadeTime: 0.5s;
+}
+
+.whiteOutline {
+  --outline-size: 2px;
+  outline: var(--outline-size) solid white;
+  outline-offset: calc(var(--outline-size) * -1);
+}
+
+.greyOutline {
+  --outline-size: 2px;
+  outline: var(--outline-size) solid var(--Black75);
+  outline-offset: calc(var(--outline-size) * -1);
 }
 
 .Monospace {

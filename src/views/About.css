@@ -22,7 +22,6 @@
 }
 
 .aboutContainer {
-  /* background-color: blue; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,8 +34,6 @@
 }
 
 .selfie {
-  /* background-color: coral; */
-
   --imgDimension: 12em;
   height: var(--imgDimension);
   width: var(--imgDimension);

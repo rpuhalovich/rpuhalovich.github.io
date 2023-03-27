@@ -17,6 +17,7 @@ export default function App() {
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -26,8 +27,8 @@ export default function App() {
   return (
     <>
       <div onScroll={handleScroll}>
-        <div className="appGridContainer wave">
-          <div className="downArrowContainer">
+        <div className="appGridContainer">
+          <div className="downArrowContainer" onClick={() => window.scrollByPages(1)}>
             {showArrow ? (
               <ExpandMoreIcon className="downArrow fadeInArrow" />
             ) : (
@@ -45,24 +46,19 @@ export default function App() {
 
           <section className="view2">
             <div className="cardsContainer">
-              <RPCard className="blueCard">
-                <p>Hey there from a blue card.</p>
-              </RPCard>
-            </div>
-          </section>
-
-          <section className="view2">
-            <div className="cardsContainer">
-              <RPCard className="blueCard cardGap">
-                <p>Hey there from a blue card.</p>
-              </RPCard>
-            </div>
-          </section>
-
-          <section className="view2">
-            <div className="cardsContainer">
-              <RPCard className="blueCard cardGap">
-                <p>Hey there from a blue card.</p>
+              <RPCard className="oglp">
+                <div
+                  className="oglpContainer"
+                  onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+                >
+                  <img
+                    className="oglpImage"
+                    src={require("./res/openGLPathfinder.png")}
+                    alt="OpenGL Pathfinder"
+                    width="1291"
+                    height="715"
+                  />
+                </div>
               </RPCard>
             </div>
           </section>
