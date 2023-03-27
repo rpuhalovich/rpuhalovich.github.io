@@ -61,7 +61,7 @@ export default function App() {
                   <div>
                     <h3>OpenGL Pathfinder</h3>
                     <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
-                    <p className="Monospace">C++;OpenGL</p>
+                    <p className="Monospace">C++;CMake;OpenGL</p>
                   </div>
                 </div>
               </RPCard>
