@@ -78,12 +78,15 @@
 }
 
 .view2 {
+  /* background-color: aliceblue; */
   grid-column-start: 2;
   grid-column-end: 12;
   padding: 32px;
+  height: fit-content;
 }
 
 .view3 {
+  /* background-color: aliceblue; */
   grid-column-start: 4;
   grid-column-end: 10;
   height: 100vh;
@@ -184,4 +187,8 @@
   background-position: center;
   background-size: cover;
   background-image: url("./res/waves.svg");
+}
+
+.projectsContainer {
+  width: var(--CardWidth);
 }

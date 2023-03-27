@@ -45,9 +45,11 @@ export default function App() {
           </section>
 
           <section className="view2">
-            <p className="subHeader">
-              <span className="smolSpace">##</span>Projects
-            </p>
+            <div className="projectsContainer">
+              <p className="subHeader">
+                <span className="smolSpace">##</span>Projects
+              </p>
+            </div>
 
             <div className="cardsContainer">
               <RPCard className="oglp">
@@ -132,7 +134,7 @@ export default function App() {
             </div>
           </section>
 
-          <section className="view3 aboutContainer">
+          <section className="view3">
             <About />
           </section>
         </div>
