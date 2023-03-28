@@ -110,6 +110,14 @@
   background-color: rgba(151, 31, 255, 0.3);
 }
 
+.vpeqCard {
+  background-color: rgba(100, 100, 100, 0.4);
+}
+
+.vpeqCard:hover {
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
