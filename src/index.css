@@ -24,6 +24,8 @@
 
   --TransitionTime: 0.2s;
   --FadeTime: 0.5s;
+
+  --TextMargin: 1em;
 }
 
 .whiteOutline {

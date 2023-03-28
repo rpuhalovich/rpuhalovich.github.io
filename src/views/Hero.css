@@ -17,8 +17,9 @@
   font-family: "JetBrains Mono", monospace;
   color: white;
 }
+
 .header {
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .subHeader {

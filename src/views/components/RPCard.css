@@ -1,18 +1,21 @@
 .RPCard {
-  width: 80%;
-
   color: var(--Black10);
   background-color: var(--Black90);
   border-radius: var(--CornerRadius);
   padding: 2em;
+  cursor: pointer;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .cardHeight {
-  height: var(--CardHeightNarrow);
+  height: var(--CardHeight);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 750px) {
   .cardHeight {
-    height: var(--CardHeight);
+    height: var(--CardHeightNarrow);
   }
 }

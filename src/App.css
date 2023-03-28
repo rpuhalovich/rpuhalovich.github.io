@@ -1,7 +1,41 @@
-.appGridContainer {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 10px;
+.appContainer {
+  /* background-color: purple; */
+}
+
+.headerContainer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+.cardContentContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.titleContainer {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.projectsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
 }
 
 .downArrowContainer {
@@ -34,11 +68,51 @@
   cursor: pointer;
 }
 
-.headerContainer {
+.view1 {
+  /* background-color: green; */
+  height: 100vh;
+  width: 100vw;
+
   display: flex;
   justify-content: center;
+}
+
+.view2 {
+  background-color: blue;
+  height: fit-content;
+  width: 100vw;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
+}
+
+.view3 {
+  background-color: red;
   height: 100vh;
+  width: 100vw;
+}
+
+.cardImage {
+  height: 100%;
+  width: max-content;
+  margin-right: 2em;
+  box-shadow: 1px 2px 8px var(--Black);
+}
+
+@media screen and (max-width: 750px) {
+}
+
+.oglp {
+  background-color: #62626299;
+  transition: var(--TransitionTime);
+}
+
+.oglp:hover {
+  background-color: #62626278;
+  transition: var(--TransitionTime);
+  cursor: pointer;
 }
 
 @keyframes fadein {
@@ -59,189 +133,4 @@
   to {
     opacity: 0;
   }
-}
-
-.header {
-  max-width: 1000px;
-  width: 100%;
-
-  opacity: 0;
-  animation: fadein ease-in var(--FadeTime) forwards;
-  animation-delay: var(--TransitionTime);
-}
-
-.view1 {
-  grid-column-start: 2;
-  grid-column-end: 12;
-  display: table;
-  height: 100vh;
-}
-
-.view2 {
-  /* background-color: aliceblue; */
-  grid-column-start: 2;
-  grid-column-end: 12;
-  padding: 32px;
-  height: fit-content;
-}
-
-.view3 {
-  /* background-color: aliceblue; */
-  grid-column-start: 4;
-  grid-column-end: 10;
-  height: 100vh;
-}
-
-.cardGap {
-  margin-top: 32px;
-}
-
-.cardsContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.flexDirection {
-  flex-flow: row;
-}
-
-.cardImageSizeHorizontal {
-  height: 100%;
-  width: max-content;
-}
-
-.cardImageSizeVertical {
-  height: 100%;
-  width: max-content;
-}
-
-.cardImage {
-  margin-right: 2em;
-  box-shadow: 1px 2px 8px var(--Black);
-}
-
-@media screen and (max-width: 750px) {
-  .flexDirection {
-    flex-flow: column;
-  }
-
-  .cardImage {
-    margin-right: 0em;
-    box-shadow: 1px 2px 8px var(--Black);
-  }
-
-  .cardImageSizeHorizontal {
-    height: max-content;
-    width: 100%;
-  }
-
-  .cardImageSizeVertical {
-    height: max-content;
-    width: 100%;
-  }
-
-  .view2Columns {
-    grid-column-start: 1;
-    grid-column-end: 13;
-  }
-
-  .view3 {
-    /* background-color: aliceblue; */
-    grid-column-start: 1;
-    grid-column-end: 13;
-    height: 100vh;
-  }
-
-  .cardContainerVertical {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cardContainerHorizontal {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .cardImageSizeVertical {
-    height: max-content;
-    width: 100%;
-  }
-}
-
-.cardContainerVertical {
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
-.cardContainerHorizontal {
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
-.oglp {
-  background-color: #62626299;
-  transition: var(--TransitionTime);
-}
-
-.oglp:hover {
-  background-color: #62626278;
-  transition: var(--TransitionTime);
-  cursor: pointer;
-}
-
-.loap {
-  background-color: #971fff78;
-  transition: var(--TransitionTime);
-}
-
-.loap:hover {
-  background-color: #971fff69;
-  transition: var(--TransitionTime);
-  cursor: pointer;
-}
-
-.rayTracer {
-  background-color: #c500488d;
-  transition: var(--TransitionTime);
-}
-
-.rayTracer:hover {
-  background-color: #c500486a;
-  transition: var(--TransitionTime);
-  cursor: pointer;
-}
-
-.vpeq {
-  background-color: #bbbbbb78;
-  transition: var(--TransitionTime);
-}
-
-.vpeq:hover {
-  background-color: #a7a7a769;
-  transition: var(--TransitionTime);
-  cursor: pointer;
-}
-
-.wave {
-  aspect-ratio: 960/1620;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("./res/waves.svg");
-}
-
-.projects {
-  width: 80%;
-}
-
-.projectsContainer {
-  /* width: 90%; */
-  /* margin-left: 10px; */
-  display: flex;
-  justify-content: center;
 }
