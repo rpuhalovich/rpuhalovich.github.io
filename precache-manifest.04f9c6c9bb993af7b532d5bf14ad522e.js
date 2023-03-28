@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "55f1db2f85964db322ee",
-    "url": "/static/css/main.6760952f.chunk.css"
+    "revision": "8cb892000a0e08e33629",
+    "url": "/static/css/main.6174f7c2.chunk.css"
   },
   {
-    "revision": "55f1db2f85964db322ee",
-    "url": "/static/js/main.55f1db2f.chunk.js"
+    "revision": "8cb892000a0e08e33629",
+    "url": "/static/js/main.8cb89200.chunk.js"
   },
   {
     "revision": "04af913db5df0dcc1a86",
@@ -32,7 +32,11 @@ self.__precacheManifest = [
     "url": "/static/media/vpeq.7bd25cd5.png"
   },
   {
-    "revision": "4a8dddd0a482a699a828c25209812360",
+    "revision": "14ef5583d0fd1fd6d35e4c18a8baf8c3",
+    "url": "/static/media/lcabet.14ef5583.jpg"
+  },
+  {
+    "revision": "9573fc93685c54e5deef28777b90c081",
     "url": "/index.html"
   }
 ];
