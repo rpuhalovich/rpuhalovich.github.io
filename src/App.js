@@ -85,8 +85,8 @@ export default function App() {
                     className="cardImage"
                     src={require("./res/raytracer.png")}
                     alt="C# Ray Tracer"
-                    width="1291"
-                    height="715"
+                    width="1000"
+                    height="1000"
                   />
                   <div>
                     <h3>OpenGL Pathfinder</h3>

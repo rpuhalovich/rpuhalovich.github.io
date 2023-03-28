@@ -113,26 +113,38 @@
   }
 
   .cardImage {
-    height: max-content;
-    width: 100%;
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 300px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .cardImage {
+    height: auto;
+    width: auto;
+    max-width: 256px;
+    max-height: 256px;
     margin-right: 0px;
   }
 }
 
 .openGLPathfinderCard {
-  background-color: #626262aa;
+  background-color: #626262cc;
 }
 
 .openGLPathfinderCard:hover {
-  background-color: #62626260;
+  background-color: #626262aa;
 }
 
 .rayTracerCard {
-  background-color: #6b0025aa;
+  background-color: #6b0025cc;
 }
 
 .rayTracerCard:hover {
-  background-color: #6b002500;
+  background-color: #6b0025aa;
 }
 
 @keyframes fadein {
