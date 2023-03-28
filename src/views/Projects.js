@@ -18,7 +18,7 @@ function Projects() {
 
         <RPCard
           className="lifeOfAProgrammer"
-          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
           imgSrc={require("./../res/loap.jpg")}
           imgAlt={"life_of_a_programmer.exe"}
           imgWidth={"1920"}
@@ -43,7 +43,7 @@ function Projects() {
 
         <RPCard
           className="rayTracerCard"
-          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+          onClick={() => window.open("https://github.com/rpuhalovich/CSharpRayTracer")}
           style={{ marginTop: "2em" }}
           imgSrc={require("./../res/raytracer.png")}
           imgAlt={"C# Ray Tracer"}
@@ -69,6 +69,19 @@ function Projects() {
             "A parametric equalizer made using the VSTSDK framework. Contains implementations of various DSP concepts."
           }
           tech={"C++;CMake;VSTSDK;DSP"}
+        />
+
+        <RPCard
+          className="letCommentsAreBadCard"
+          onClick={() => window.open("https://www.youtube.com/watch?v=ls4IsufyE2E")}
+          style={{ marginTop: "2em" }}
+          imgSrc={require("./../res/lcabet.jpg")}
+          imgAlt={"let commentsAreBad = true;"}
+          imgWidth={"1280"}
+          imgHeight={"720"}
+          header={"let commentsAreBad = true;"}
+          description={"A talk I did at the Google Developer Group in Melbourne about coding standards."}
+          tech={"Google Docs;Public Speaking"}
         />
       </div>
     </>

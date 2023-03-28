@@ -46,3 +46,11 @@
 .vpeqCard:hover {
   background-color: rgba(100, 100, 100, 0.3);
 }
+
+.letCommentsAreBadCard {
+  background-color: rgba(255, 47, 0, 0.4);
+}
+
+.letCommentsAreBadCard:hover {
+  background-color: rgba(255, 47, 0, 0.3);
+}
