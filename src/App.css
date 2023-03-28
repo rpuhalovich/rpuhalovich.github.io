@@ -9,18 +9,6 @@
   align-items: center;
 }
 
-.cardContainer {
-  width: 100%;
-  display: flex;
-  align-self: center;
-}
-
-.cardContentContainer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
 .titleContainer {
   width: 100%;
   height: 100%;
@@ -98,39 +86,6 @@
   justify-content: center;
 }
 
-.cardImage {
-  height: 100%;
-  width: max-content;
-  margin-right: 2em;
-  box-shadow: 1px 2px 8px var(--Black);
-}
-
-@media screen and (max-width: 750px) {
-  .cardContentContainer {
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cardImage {
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 300px;
-    margin-right: 0px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .cardImage {
-    height: auto;
-    width: auto;
-    max-width: 256px;
-    max-height: 256px;
-    margin-right: 0px;
-  }
-}
-
 .openGLPathfinderCard {
   background-color: #626262cc;
 }
@@ -145,6 +100,14 @@
 
 .rayTracerCard:hover {
   background-color: #6b0025aa;
+}
+
+.lifeOfAProgrammer {
+  background-color: rgba(151, 31, 255, 0.4);
+}
+
+.lifeOfAProgrammer:hover {
+  background-color: rgba(151, 31, 255, 0.3);
 }
 
 @keyframes fadein {

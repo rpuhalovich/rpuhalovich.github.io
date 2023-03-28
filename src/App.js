@@ -58,43 +58,57 @@ export default function App() {
               <RPCard
                 className="openGLPathfinderCard"
                 onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
-              >
-                <div className="cardContentContainer">
-                  <img
-                    className="cardImage"
-                    src={require("./res/openGLPathfinder.png")}
-                    alt="OpenGL Pathfinder"
-                    width="1291"
-                    height="715"
-                  />
-                  <div>
-                    <h3>OpenGL Pathfinder</h3>
-                    <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
-                    <p className="Monospace">C++;CMake;OpenGL;DSA</p>
-                  </div>
-                </div>
-              </RPCard>
+                imgSrc={require("./res/openGLPathfinder.png")}
+                imgAlt={"OpenGL Pathfinder"}
+                imgWidth={"1291"}
+                imgHeight={"715"}
+                header={"OpenGL Pathfinder"}
+                description={"A BFS shortest path algorithm, written in C++ using raw OpenGL."}
+                tech={"C++;CMake;OpenGL;DSA"}
+              />
+
+              <RPCard
+                className="lifeOfAProgrammer"
+                onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+                style={{ marginTop: "2em" }}
+                imgSrc={require("./res/loap.jpg")}
+                imgAlt={"life_of_a_programmer.exe"}
+                imgWidth={"1920"}
+                imgHeight={"1080"}
+                header={"life_of_a_programmer.exe"}
+                description={"A metaphorical game about running through code to catch the bug at the end of the level."}
+                tech={"C#;Unity"}
+              />
 
               <RPCard
                 className="rayTracerCard"
                 onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
                 style={{ marginTop: "2em" }}
-              >
-                <div className="cardContentContainer">
-                  <img
-                    className="cardImage"
-                    src={require("./res/raytracer.png")}
-                    alt="C# Ray Tracer"
-                    width="1000"
-                    height="1000"
-                  />
-                  <div>
-                    <h3>OpenGL Pathfinder</h3>
-                    <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
-                    <p className="Monospace">C++;CMake;OpenGL;DSA</p>
-                  </div>
-                </div>
-              </RPCard>
+                imgSrc={require("./res/raytracer.png")}
+                imgAlt={"C# Ray Tracer"}
+                imgWidth={"1000"}
+                imgHeight={"1000"}
+                header={"C# Ray Tracer"}
+                description={
+                  "A ray tracer written in C#. Contains implementations of depth of field, reflection, refraction and the Fresnel effect."
+                }
+                tech={"C#;Visual Studio"}
+              />
+
+              <RPCard
+                className="vpeqCard"
+                onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}
+                style={{ marginTop: "2em" }}
+                imgSrc={require("./res/vpeq.png")}
+                imgAlt={"VPEQ"}
+                imgWidth={"640"}
+                imgHeight={"650"}
+                header={"VPEQ"}
+                description={
+                  "A parametric equalizer made using the VSTSDK framework. Contains implementations of various DSP concepts."
+                }
+                tech={"C++;CMake;VSTSDK;DSP"}
+              />
             </div>
           </section>
 
