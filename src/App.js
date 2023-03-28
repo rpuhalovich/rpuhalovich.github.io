@@ -98,7 +98,9 @@ export default function App() {
             </div>
           </section>
 
-          <section className="view3">{/* <About /> */}</section>
+          <section className="view3">
+            <About />
+          </section>
         </div>
       </div>
     </>

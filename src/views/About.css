@@ -1,45 +1,17 @@
-.about {
-  display: table-cell;
-  vertical-align: middle;
-  height: 100vh;
-}
-
-.flexDirection {
-  flex-flow: column;
-}
-
-.centerText {
-  text-align: left;
-}
-
-.imgRightGap {
-  margin-right: 2em;
-}
-
-@media screen and (max-width: 750px) {
-  .flexDirection {
-    flex-flow: row;
-  }
-
-  .imgRightGap {
-    margin-right: 0em;
-  }
-
-  .centerText {
-    text-align: center;
-  }
-}
-
 .aboutContainer {
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: row;
 }
 
 .imgContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 2em;
+}
+
+.contentContainer {
+  text-align: left;
 }
 
 .selfie {
@@ -58,6 +30,16 @@
   background-image: url("./../res/goodPhoto.jpg");
 }
 
-.buttonGap {
-  margin-left: 2em;
+@media screen and (max-width: 750px) {
+  .imgContainer {
+    margin-right: 0em;
+  }
+
+  .aboutContainer {
+    flex-flow: column;
+  }
+
+  .contentContainer {
+    text-align: center;
+  }
 }
