@@ -145,6 +145,13 @@
     grid-column-end: 13;
   }
 
+  .view3 {
+    /* background-color: aliceblue; */
+    grid-column-start: 1;
+    grid-column-end: 13;
+    height: 100vh;
+  }
+
   .cardContainerVertical {
     justify-content: center;
     align-items: center;

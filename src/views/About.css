@@ -8,17 +8,25 @@
   flex-flow: column;
 }
 
-@media screen and (min-width: 1000px) {
+.centerText {
+  text-align: left;
+}
+
+.imgRightGap {
+  margin-right: 2em;
+}
+
+@media screen and (max-width: 750px) {
   .flexDirection {
     flex-flow: row;
   }
 
   .imgRightGap {
-    margin-right: 2em;
+    margin-right: 0em;
   }
 
   .centerText {
-    text-align: left;
+    text-align: center;
   }
 }
 

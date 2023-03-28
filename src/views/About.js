@@ -12,7 +12,7 @@ function About() {
           <div>
             <div className="selfie imgRightGap" />
           </div>
-          <div className="centerText">
+          <div className="centerText" style={{ "!textAlign": "left" }}>
             <p className="Paragraph">Just a guy who likes to tinker with computers.</p>
 
             <RPButton onClick={() => window.open("https://github.com/rpuhalovich")}>GitHub</RPButton>
