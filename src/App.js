@@ -17,7 +17,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -29,11 +29,12 @@ export default function App() {
       <div onScroll={handleScroll}>
         <div className="appGridContainer">
           <div className="downArrowContainer" onClick={() => window.scrollByPages(1)}>
-            {showArrow ? (
-              <ExpandMoreIcon className="downArrow fadeInArrow" />
-            ) : (
-              <ExpandMoreIcon className="downArrow fadeOutArrow" />
-            )}
+            {(window.screenX >= 750) &
+              (showArrow ? (
+                <ExpandMoreIcon className="downArrow fadeInArrow" />
+              ) : (
+                <ExpandMoreIcon className="downArrow fadeOutArrow" />
+              ))}
           </div>
 
           <section className="view1">
