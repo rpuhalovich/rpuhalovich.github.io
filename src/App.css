@@ -102,11 +102,15 @@
 }
 
 .flexDirection {
-  /* flex-flow: column; */
   flex-flow: row;
 }
 
-.cardImageSize {
+.cardImageSizeHorizontal {
+  height: 100%;
+  width: max-content;
+}
+
+.cardImageSizeVertical {
   height: 100%;
   width: max-content;
 }
@@ -121,18 +125,41 @@
     flex-flow: column;
   }
 
-  .cardImageSize {
+  .cardImageSizeHorizontal {
     height: max-content;
     width: 100%;
   }
+
+  .cardImageSizeVertical {
+    height: 100%;
+    width: max-content;
+  }
+
+  .view2Columns {
+    grid-column-start: 1;
+    grid-column-end: 13;
+  }
+
+  .cardContainerVertical {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardContainerHorizontal {
+    justify-content: center;
+  }
 }
 
-.cardContainer {
+.cardContainerVertical {
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: left;
+}
+
+.cardContainerHorizontal {
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
 .oglp {
@@ -189,6 +216,13 @@
   background-image: url("./res/waves.svg");
 }
 
+.projects {
+  width: 90%;
+}
+
 .projectsContainer {
-  width: var(--CardWidth);
+  /* width: 90%; */
+  /* margin-left: 10px; */
+  display: flex;
+  justify-content: center;
 }
