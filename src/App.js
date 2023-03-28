@@ -46,7 +46,7 @@ export default function App() {
           </section>
 
           <section className="view2">
-            <div className="projectsContainer" style={{ width: "min(1000px, 80%)" }}>
+            <div className="projectsContainer">
               <div className="titleContainer">
                 <div className="title">
                   <p className="subHeader">
@@ -56,7 +56,7 @@ export default function App() {
               </div>
 
               <RPCard
-                className="cardContainer"
+                className="openGLPathfinderCard"
                 onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
               >
                 <div className="cardContentContainer">
@@ -67,7 +67,28 @@ export default function App() {
                     width="1291"
                     height="715"
                   />
-                  <div style={{ margin: "0px" }}>
+                  <div>
+                    <h3>OpenGL Pathfinder</h3>
+                    <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
+                    <p className="Monospace">C++;CMake;OpenGL;DSA</p>
+                  </div>
+                </div>
+              </RPCard>
+
+              <RPCard
+                className="rayTracerCard"
+                onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+                style={{ marginTop: "2em" }}
+              >
+                <div className="cardContentContainer">
+                  <img
+                    className="cardImage"
+                    src={require("./res/raytracer.png")}
+                    alt="C# Ray Tracer"
+                    width="1291"
+                    height="715"
+                  />
+                  <div>
                     <h3>OpenGL Pathfinder</h3>
                     <p>A BFS shortest path algorithm, written in C++ using raw OpenGL.</p>
                     <p className="Monospace">C++;CMake;OpenGL;DSA</p>

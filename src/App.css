@@ -3,7 +3,7 @@
 }
 
 .headerContainer {
-  width: 80%;
+  width: min(1280px, 80%);
   height: 100%;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 }
 
 .projectsContainer {
-  width: 100%;
+  width: min(1280px, 80%);
   height: 100%;
   display: flex;
   align-items: center;
@@ -102,17 +102,33 @@
 }
 
 @media screen and (max-width: 750px) {
+  .cardContentContainer {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardImage {
+    height: max-content;
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
-.oglp {
-  background-color: #62626299;
-  transition: var(--TransitionTime);
+.openGLPathfinderCard {
+  background-color: #626262aa;
 }
 
-.oglp:hover {
-  background-color: #62626278;
-  transition: var(--TransitionTime);
-  cursor: pointer;
+.openGLPathfinderCard:hover {
+  background-color: #62626260;
+}
+
+.rayTracerCard {
+  background-color: #6b0025aa;
+}
+
+.rayTracerCard:hover {
+  background-color: #6b002500;
 }
 
 @keyframes fadein {

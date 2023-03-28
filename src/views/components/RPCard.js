@@ -6,7 +6,7 @@ function RPCard(props) {
   const { children, className, ...rest } = props;
   return (
     <>
-      <div className={`RPCard Monospace cardHeight ${className}`} {...rest}>
+      <div className={`RPCard Monospace ${className}`} {...rest}>
         {children}
       </div>
     </>

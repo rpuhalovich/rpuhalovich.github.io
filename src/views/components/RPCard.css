@@ -8,14 +8,17 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
 
-.cardHeight {
+  transition: var(--TransitionTime);
+
   height: var(--CardHeight);
+  width: 100%;
+  display: flex;
+  align-self: center;
 }
 
 @media screen and (max-width: 750px) {
-  .cardHeight {
+  .RPCard {
     height: var(--CardHeightNarrow);
   }
 }
