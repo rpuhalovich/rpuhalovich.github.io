@@ -86,38 +86,6 @@
   justify-content: center;
 }
 
-.openGLPathfinderCard {
-  background-color: #626262cc;
-}
-
-.openGLPathfinderCard:hover {
-  background-color: #626262aa;
-}
-
-.rayTracerCard {
-  background-color: #6b0025cc;
-}
-
-.rayTracerCard:hover {
-  background-color: #6b0025aa;
-}
-
-.lifeOfAProgrammer {
-  background-color: rgba(151, 31, 255, 0.4);
-}
-
-.lifeOfAProgrammer:hover {
-  background-color: rgba(151, 31, 255, 0.3);
-}
-
-.vpeqCard {
-  background-color: rgba(100, 100, 100, 0.4);
-}
-
-.vpeqCard:hover {
-  background-color: rgba(100, 100, 100, 0.3);
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
