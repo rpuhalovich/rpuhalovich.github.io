@@ -24,6 +24,7 @@ export default function App() {
 
         <section className="view2">
           <Projects />
+          <p className="footNote">And, of course, this website.</p>
         </section>
 
         <section className="view3">

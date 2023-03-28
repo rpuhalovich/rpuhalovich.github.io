@@ -28,10 +28,10 @@
   flex-flow: column;
 }
 
-.downArrow {
-  color: white;
-  font-size: 5rem;
-  cursor: pointer;
+.footNote {
+  color: var(--Black75);
+  text-align: right;
+  width: min(1280px, 80%);
 }
 
 .view1 {

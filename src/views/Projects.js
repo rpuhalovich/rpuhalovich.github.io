@@ -17,21 +17,8 @@ function Projects() {
         </div>
 
         <RPCard
-          className="openGLPathfinderCard"
-          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
-          imgSrc={require("./../res/openGLPathfinder.png")}
-          imgAlt={"OpenGL Pathfinder"}
-          imgWidth={"1291"}
-          imgHeight={"715"}
-          header={"OpenGL Pathfinder"}
-          description={"A BFS shortest path algorithm, written in C++ using raw OpenGL."}
-          tech={"C++;CMake;OpenGL;DSA"}
-        />
-
-        <RPCard
           className="lifeOfAProgrammer"
           onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
-          style={{ marginTop: "2em" }}
           imgSrc={require("./../res/loap.jpg")}
           imgAlt={"life_of_a_programmer.exe"}
           imgWidth={"1920"}
@@ -39,6 +26,19 @@ function Projects() {
           header={"life_of_a_programmer.exe"}
           description={"A metaphorical game about running through code to catch the bug at the end of the level."}
           tech={"C#;Unity"}
+        />
+
+        <RPCard
+          className="openGLPathfinderCard"
+          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+          imgSrc={require("./../res/openGLPathfinder.png")}
+          style={{ marginTop: "2em" }}
+          imgAlt={"OpenGL Pathfinder"}
+          imgWidth={"1291"}
+          imgHeight={"715"}
+          header={"OpenGL Pathfinder"}
+          description={"A BFS shortest path algorithm, written in C++ using raw OpenGL."}
+          tech={"C++;CMake;OpenGL;DSA"}
         />
 
         <RPCard
@@ -59,7 +59,7 @@ function Projects() {
         <RPCard
           className="vpeqCard"
           onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}
-          style={{ marginTop: "2em", marginBottom: "2em" }}
+          style={{ marginTop: "2em" }}
           imgSrc={require("./../res/vpeq.png")}
           imgAlt={"VPEQ"}
           imgWidth={"640"}
