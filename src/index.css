@@ -23,7 +23,7 @@
   --CardWidth: min(1280px, 100%);
 
   --TransitionTime: 0.2s;
-  --FadeTime: 0.5s;
+  --FadeTime: 1s;
 
   --TextMargin: 1em;
 }
