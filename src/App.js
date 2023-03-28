@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Hero from "./views/Hero";
 import About from "./views/About";
@@ -7,6 +7,10 @@ import "./App.css";
 import Projects from "./views/Projects";
 
 export default function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="appContainer">
