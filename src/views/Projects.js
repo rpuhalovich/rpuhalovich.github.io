@@ -83,6 +83,26 @@ function Projects() {
           description={"A talk I did at the Google Developer Group in Melbourne about coding standards."}
           tech={"Google Docs;Public Speaking"}
         />
+
+        <div
+          style={{
+            marginTop: "1em",
+            width: "100%",
+            display: "flex",
+            justifyContent: "right",
+          }}
+        >
+          <a
+            style={{
+              textDecoration: "none",
+              width: "fit-content",
+            }}
+            className="footNote"
+            href="https://github.com/rpuhalovich/rpuhalovich.github.io"
+          >
+            <p className="footNoteText">And, of course, this website.</p>
+          </a>
+        </div>
       </div>
     </>
   );

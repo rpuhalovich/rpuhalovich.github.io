@@ -12,9 +12,12 @@
 }
 
 .footNote {
-  color: var(--Black75);
   text-align: right;
   width: min(1280px, 80%);
+}
+
+.footNoteText {
+  color: var(--Black75);
 }
 
 .view1 {

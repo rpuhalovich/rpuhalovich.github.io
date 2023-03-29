@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, []);
 
   return (
@@ -24,7 +24,6 @@ export default function App() {
 
         <section className="view2">
           <Projects />
-          <p className="footNote">And, of course, this website.</p>
         </section>
 
         <section className="view3">
