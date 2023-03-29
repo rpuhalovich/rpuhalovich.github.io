@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "54cfbded5064c6e76b0a",
-    "url": "/static/css/main.c6b61075.chunk.css"
+    "revision": "0470fdc760415eb52f7b",
+    "url": "/static/css/main.572e309f.chunk.css"
   },
   {
-    "revision": "54cfbded5064c6e76b0a",
-    "url": "/static/js/main.54cfbded.chunk.js"
+    "revision": "0470fdc760415eb52f7b",
+    "url": "/static/js/main.0470fdc7.chunk.js"
   },
   {
     "revision": "04af913db5df0dcc1a86",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/lcabet.14ef5583.jpg"
   },
   {
-    "revision": "d5d72c5247cd7a71c15c2b9293cb6976",
+    "revision": "0d6a5443834e67826ddf5689ca6af4b7",
     "url": "/index.html"
   }
 ];
