@@ -92,16 +92,11 @@ function Projects() {
             justifyContent: "right",
           }}
         >
-          <a
-            style={{
-              textDecoration: "none",
-              width: "fit-content",
-            }}
-            className="footNote"
-            href="https://github.com/rpuhalovich/rpuhalovich.github.io"
-          >
-            <p className="footNoteText">And, of course, this website.</p>
-          </a>
+          <div style={{ width: "fit-content" }}>
+            <p onClick={() => window.open("https://github.com/rpuhalovich/rpuhalovich.github.io")} className="footNote">
+              And, of course, this website.
+            </p>
+          </div>
         </div>
       </div>
     </>
