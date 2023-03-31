@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function App() {
   useEffect(() => {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }, []);
 
   return (
