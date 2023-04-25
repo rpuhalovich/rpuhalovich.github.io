@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/lcabet.14ef5583.jpg"
   },
   {
-    "revision": "7619f18880ba29d51e081d7c78b5ad21",
+    "revision": "6788def82229beecf3c468bd93e310a5",
     "url": "/index.html"
   }
 ];
