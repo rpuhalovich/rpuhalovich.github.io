@@ -5,7 +5,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <>
-      <p className="title titleFontSize header">
+      <p className="title header">
         <span className="h5 smolSpace">#</span>Ryan Puhalovich
       </p>
       <p className="subHeader">

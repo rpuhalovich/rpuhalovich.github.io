@@ -1,18 +1,9 @@
-.titleFontSize {
-  font-size: 2rem;
-}
-
-@media screen and (min-width: 550px) {
-  .titleFontSize {
-    font-size: 3rem;
-  }
-}
-
 .smolSpace {
   margin-right: 0.1em;
 }
 
 .title {
+  font-size: 3rem;
   font-weight: 300;
   font-family: "JetBrains Mono", monospace;
   color: white;
@@ -28,4 +19,14 @@
   font-family: "JetBrains Mono", monospace;
   color: var(--Black50);
   margin-top: 0px;
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subHeader {
+    font-size: 1.1rem;
+  }
 }
