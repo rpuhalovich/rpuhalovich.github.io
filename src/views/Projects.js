@@ -30,7 +30,7 @@ function Projects() {
 
         <RPCard
           className="origin"
-          description={"Frontend developer on internal cost forecasting software."}
+          description={"Full Stack developer who built cost forecasting software for Origin Energy."}
           header={"Origin Energy"}
           imgAlt={"Origin Energy"}
           imgWidth={"450"}
@@ -38,12 +38,12 @@ function Projects() {
           imgSrc={require("./../res/origin.png")}
           onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
           style={{ marginTop: "2em" }}
-          tech={"C#;Unity"}
+          tech={"JavaScript"}
         />
 
         <RPCard
           className="gpt"
-          description={"Frontend developer on internal permissions auditing software."}
+          description={"Full Stack developer on internal permissions auditing software for GPT Group."}
           header={"GPT Group"}
           imgAlt={"GPT Group"}
           imgWidth={"500"}
