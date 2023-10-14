@@ -17,6 +17,10 @@
   align-self: center;
 }
 
+.RPCard:hover {
+  transform: scale(1.03);
+}
+
 .cardContentContainer {
   width: 100%;
   display: flex;

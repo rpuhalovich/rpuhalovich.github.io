@@ -11,16 +11,16 @@ function Projects() {
         <div className="titleContainer">
           <div className="title">
             <p className="subHeader">
-              <span className="smolSpace">##</span>Projects
+              <span className="smolSpace">##</span>Projects - Professional
             </p>
           </div>
         </div>
 
         <RPCard
-          className="lifeOfAProgrammer"
-          description={"foo"}
-          header={"Guzman Y Gomez"}
-          imgAlt={"Guzman Y Gomez"}
+          className="gyg"
+          description={"Backend AWS developer on the GYG app."}
+          header={"Guzman y Gomez"}
+          imgAlt={"Guzman y Gomez"}
           imgWidth={"512"}
           imgHeight={"512"}
           imgSrc={require("./../res/gyg.png")}
@@ -29,21 +29,8 @@ function Projects() {
         />
 
         <RPCard
-          className="lifeOfAProgrammer"
-          description={"foo"}
-          header={"GPT Group"}
-          imgAlt={"GPT Group"}
-          imgWidth={"500"}
-          imgHeight={"290"}
-          imgSrc={require("./../res/gpt.png")}
-          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
-          style={{ marginTop: "2em" }}
-          tech={"JavaScript"}
-        />
-
-        <RPCard
-          className="lifeOfAProgrammer outline"
-          description={"foo"}
+          className="origin"
+          description={"Frontend developer on internal cost forecasting software."}
           header={"Origin Energy"}
           imgAlt={"Origin Energy"}
           imgWidth={"450"}
@@ -55,7 +42,28 @@ function Projects() {
         />
 
         <RPCard
-          className="lifeOfAProgrammer"
+          className="gpt"
+          description={"Frontend developer on internal permissions auditing software."}
+          header={"GPT Group"}
+          imgAlt={"GPT Group"}
+          imgWidth={"500"}
+          imgHeight={"290"}
+          imgSrc={require("./../res/gpt.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          style={{ marginTop: "2em" }}
+          tech={"JavaScript"}
+        />
+
+        <div className="titleContainer" style={{ marginTop: "2em" }}>
+          <div className="title">
+            <p className="subHeader">
+              <span className="smolSpace">##</span>Projects - Personal
+            </p>
+          </div>
+        </div>
+
+        <RPCard
+          className="loap"
           description={"A metaphorical game about running through code to catch the bug at the end of the level."}
           header={"life_of_a_programmer.exe"}
           imgAlt={"life_of_a_programmer.exe"}
@@ -63,7 +71,6 @@ function Projects() {
           imgSrc={require("./../res/loap.jpg")}
           imgWidth={"1920"}
           onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
-          style={{ marginTop: "2em" }}
           tech={"C#;Unity"}
         />
 

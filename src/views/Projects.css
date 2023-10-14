@@ -15,12 +15,6 @@
   flex-flow: column;
 }
 
-.outline {
-  --outline-size: 2px;
-  outline: var(--outline-size) solid white;
-  outline-offset: calc(var(--outline-size) * -1);
-}
-
 .footNote {
   color: var(--Black75);
   text-align: right;
@@ -44,11 +38,35 @@
   background-color: #6b0025aa;
 }
 
-.lifeOfAProgrammer {
+.gyg {
+  background-color: rgb(49, 49, 49);
+}
+
+.gyg:hover {
+  background-color: rgba(39, 39, 39);
+}
+
+.gpt {
+  background-color: #113344;
+}
+
+.gpt:hover {
+  background-color: #002233;
+}
+
+.origin {
+  background-color: rgb(199, 96, 0);
+}
+
+.origin:hover {
+  background-color: rgba(170, 64, 0);
+}
+
+.loap {
   background-color: rgba(151, 31, 255, 0.4);
 }
 
-.lifeOfAProgrammer:hover {
+.loap:hover {
   background-color: rgba(151, 31, 255, 0.3);
 }
 
@@ -61,9 +79,9 @@
 }
 
 .letCommentsAreBadCard {
-  background-color: rgba(255, 47, 0, 0.4);
+  background-color: rgb(218, 141, 26);
 }
 
 .letCommentsAreBadCard:hover {
-  background-color: rgba(255, 47, 0, 0.3);
+  background-color: rgb(204, 132, 25);
 }

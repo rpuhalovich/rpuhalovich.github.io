@@ -3,6 +3,14 @@
 /* --- Globals --- */
 
 :root {
+  /*
+  --Background: #171717;
+  --Primary: #a11d6a;
+  --Secondary: #951fff;
+  --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)));
+  --Error: #e00248;
+*/
+  --Background: #111111;
   --Primary: #a11d6a;
   --Secondary: #951fff;
   --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)));
@@ -30,13 +38,13 @@
 
 .whiteOutline {
   --outline-size: 2px;
-  outline: var(--outline-size) solid white;
+  outline: var(--outline-size) solid var(--Black10);
   outline-offset: calc(var(--outline-size) * -1);
 }
 
 .greyOutline {
   --outline-size: 2px;
-  outline: var(--outline-size) solid var(--Black75);
+  outline: var(--outline-size) solid var(--Black25);
   outline-offset: calc(var(--outline-size) * -1);
 }
 
@@ -101,12 +109,18 @@ p {
   color: var(--Black75);
 }
 
-html,
+html {
+  height: 100%;
+}
+
 body {
-  background: #171717;
+  /* background: linear-gradient(to bottom right, #333333, #101010); */
+  background: #111111;
   scrollbar-width: none;
   scroll-behavior: smooth;
   margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 * {
