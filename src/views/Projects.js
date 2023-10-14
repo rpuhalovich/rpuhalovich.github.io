@@ -18,69 +18,108 @@ function Projects() {
 
         <RPCard
           className="lifeOfAProgrammer"
+          description={"foo"}
+          header={"Guzman Y Gomez"}
+          imgAlt={"Guzman Y Gomez"}
+          imgWidth={"512"}
+          imgHeight={"512"}
+          imgSrc={require("./../res/gyg.png")}
           onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
-          imgSrc={require("./../res/loap.jpg")}
-          imgAlt={"life_of_a_programmer.exe"}
-          imgWidth={"1920"}
-          imgHeight={"1080"}
-          header={"life_of_a_programmer.exe"}
+          tech={"TypeScript;AWS;Serverless"}
+        />
+
+        <RPCard
+          className="lifeOfAProgrammer"
+          description={"foo"}
+          header={"GPT Group"}
+          imgAlt={"GPT Group"}
+          imgWidth={"500"}
+          imgHeight={"290"}
+          imgSrc={require("./../res/gpt.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          style={{ marginTop: "2em" }}
+          tech={"JavaScript"}
+        />
+
+        <RPCard
+          className="lifeOfAProgrammer outline"
+          description={"foo"}
+          header={"Origin Energy"}
+          imgAlt={"Origin Energy"}
+          imgWidth={"450"}
+          imgHeight={"300"}
+          imgSrc={require("./../res/origin.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          style={{ marginTop: "2em" }}
+          tech={"C#;Unity"}
+        />
+
+        <RPCard
+          className="lifeOfAProgrammer"
           description={"A metaphorical game about running through code to catch the bug at the end of the level."}
+          header={"life_of_a_programmer.exe"}
+          imgAlt={"life_of_a_programmer.exe"}
+          imgHeight={"1080"}
+          imgSrc={require("./../res/loap.jpg")}
+          imgWidth={"1920"}
+          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          style={{ marginTop: "2em" }}
           tech={"C#;Unity"}
         />
 
         <RPCard
           className="openGLPathfinderCard"
-          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
-          imgSrc={require("./../res/openGLPathfinder.png")}
-          style={{ marginTop: "2em" }}
-          imgAlt={"OpenGL Pathfinder"}
-          imgWidth={"1291"}
-          imgHeight={"715"}
-          header={"OpenGL Pathfinder"}
           description={"A BFS shortest path algorithm, written in C++ using raw OpenGL."}
+          header={"OpenGL Pathfinder"}
+          imgAlt={"OpenGL Pathfinder"}
+          imgHeight={"715"}
+          imgWidth={"1291"}
+          imgSrc={require("./../res/openGLPathfinder.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/OpenGLPathfinder")}
+          style={{ marginTop: "2em" }}
           tech={"C++;CMake;OpenGL;DSA"}
         />
 
         <RPCard
           className="rayTracerCard"
-          onClick={() => window.open("https://github.com/rpuhalovich/CSharpRayTracer")}
-          style={{ marginTop: "2em" }}
-          imgSrc={require("./../res/raytracer.png")}
-          imgAlt={"C# Ray Tracer"}
-          imgWidth={"1000"}
-          imgHeight={"1000"}
-          header={"C# Ray Tracer"}
           description={
             "A ray tracer written in C#. Contains implementations of depth of field, reflection, refraction and the Fresnel effect."
           }
+          header={"C# Ray Tracer"}
+          imgAlt={"C# Ray Tracer"}
+          imgHeight={"1000"}
+          imgWidth={"1000"}
+          imgSrc={require("./../res/raytracer.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/CSharpRayTracer")}
+          style={{ marginTop: "2em" }}
           tech={"C#;Visual Studio"}
         />
 
         <RPCard
           className="vpeqCard"
-          onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}
-          style={{ marginTop: "2em" }}
-          imgSrc={require("./../res/vpeq.png")}
-          imgAlt={"VPEQ"}
-          imgWidth={"640"}
-          imgHeight={"650"}
-          header={"VPEQ"}
           description={
             "A parametric equalizer made using the VSTSDK framework. Contains implementations of various DSP concepts."
           }
+          header={"VPEQ"}
+          imgAlt={"VPEQ"}
+          imgHeight={"650"}
+          imgWidth={"640"}
+          imgSrc={require("./../res/vpeq.png")}
+          onClick={() => window.open("https://github.com/rpuhalovich/VPEQ")}
+          style={{ marginTop: "2em" }}
           tech={"C++;CMake;VSTSDK;DSP"}
         />
 
         <RPCard
           className="letCommentsAreBadCard"
+          description={"A talk I did at the Google Developer Group in Melbourne about coding standards."}
+          header={"let commentsAreBad = true;"}
+          imgAlt={"let commentsAreBad = true;"}
+          imgHeight={"720"}
+          imgWidth={"1280"}
+          imgSrc={require("./../res/lcabet.jpg")}
           onClick={() => window.open("https://www.youtube.com/watch?v=ls4IsufyE2E")}
           style={{ marginTop: "2em" }}
-          imgSrc={require("./../res/lcabet.jpg")}
-          imgAlt={"let commentsAreBad = true;"}
-          imgWidth={"1280"}
-          imgHeight={"720"}
-          header={"let commentsAreBad = true;"}
-          description={"A talk I did at the Google Developer Group in Melbourne about coding standards."}
           tech={"Google Docs;Public Speaking"}
         />
 
