@@ -9,7 +9,7 @@ function Hero() {
         <span className="h5 smolSpace">#</span>Ryan Puhalovich
       </p>
       <p className="subHeader">
-        <span className="smolSpace">##</span>Software Dev at Bilue
+        <span className="smolSpace">##</span>Software Devloper at Bilue
       </p>
     </>
   );
