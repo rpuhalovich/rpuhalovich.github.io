@@ -6,7 +6,7 @@ function RPButton(props) {
   const { children, className, ...rest } = props;
   return (
     <>
-      <button className={`RPButton Monospace whiteOutline ${className}`} {...rest}>
+      <button className={`RPButton Monospace ${className}`} {...rest}>
         {children}
       </button>
     </>

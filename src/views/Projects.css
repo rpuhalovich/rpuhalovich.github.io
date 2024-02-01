@@ -23,27 +23,27 @@
 }
 
 .openGLPathfinderCard {
-  background-color: #626262cc;
+  background-color: #770000;
 }
 
 .openGLPathfinderCard:hover {
-  background-color: #626262aa;
+  background-color: #6b0000;
 }
 
 .rayTracerCard {
-  background-color: #6b0025cc;
+  background-color: #6b0025;
 }
 
 .rayTracerCard:hover {
-  background-color: #6b0025aa;
+  background-color: #5a0020;
 }
 
 .gyg {
-  background-color: rgb(196, 176, 0);
+  background-color: rgb(223, 200, 0, 1);
 }
 
 .gyg:hover {
-  background-color: rgb(175, 158, 0);
+  background-color: rgb(223, 200, 0, 1);
 }
 
 .gpt {
@@ -59,15 +59,15 @@
 }
 
 .origin:hover {
-  background-color: rgba(170, 64, 0);
+  background-color: rgb(185, 90, 0);
 }
 
 .loap {
-  background-color: rgba(151, 31, 255, 0.4);
+  background-color: rgb(128, 26, 218);
 }
 
 .loap:hover {
-  background-color: rgba(151, 31, 255, 0.3);
+  background-color: rgb(121, 23, 206);
 }
 
 .vpeqCard {

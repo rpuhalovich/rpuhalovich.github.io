@@ -1,15 +1,15 @@
 .RPButton {
-  color: var(--Black10);
-  background-color: var(--Black90);
+  color: var(--Black);
+  background-color: var(--Black);
   border-radius: var(--CornerRadius);
   padding: 1em;
-  border-color: var(--Black10);
+  border-color: var(--Black);
   border-style: none;
   transition: var(--TransitionTime);
 }
 
 .RPButton:hover {
-  background-color: var(--Black80);
+  background-color: var(--Black75);
   transition: var(--TransitionTime);
   /* transform: scale(1.1); */
   cursor: pointer;

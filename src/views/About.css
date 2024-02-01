@@ -21,9 +21,9 @@
   padding: 2em;
   border-radius: var(--CornerRadius);
 
-  --outline-size: 2px;
-  outline: var(--outline-size) solid white;
-  outline-offset: calc(var(--outline-size) * -1);
+  /* --outline-size: 4px;
+  outline: var(--outline-size) solid var(--Black90);
+  outline-offset: calc(var(--outline-size) * -1); */
 
   aspect-ratio: 4000/4000;
   background-size: cover;
@@ -42,4 +42,8 @@
   .contentContainer {
     text-align: center;
   }
+}
+
+.aboutText {
+  color: var(--Black);
 }

@@ -62,7 +62,7 @@
 .Paragraph,
 p {
   font-size: 0.9rem;
-  font-weight: 100;
+  font-weight: 400;
   font-family: "JetBrains Mono", monospace;
   color: var(--Black10);
 }
@@ -99,7 +99,7 @@ p {
   font-size: 1.75rem;
   font-weight: 200;
   font-family: "Poppins", sans-serif;
-  color: var(--Black10);
+  color: var(--Black);
 }
 
 .h6 {
@@ -114,13 +114,13 @@ html {
 }
 
 body {
-  background: rgb(98, 0, 42);
+  /* background: rgb(98, 0, 42);
   background: -moz-linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
   background: -webkit-linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
   background: linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62002a", endColorstr="#5a0093", GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62002a", endColorstr="#5a0093", GradientType=1); */
 
-  /* background: #111111; */
+  background: #fff9ee;
   scrollbar-width: none;
   scroll-behavior: smooth;
   margin: 0px;
