@@ -54,9 +54,9 @@
 
 .Monospace {
   font-size: 0.875rem;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "JetBrains Mono", monospace;
-  color: white;
+  color: var(--Black);
 }
 
 .Paragraph,
@@ -64,7 +64,7 @@ p {
   font-size: 0.9rem;
   font-weight: 400;
   font-family: "JetBrains Mono", monospace;
-  color: var(--Black10);
+  color: var(--Black);
 }
 
 .h1 {

@@ -16,72 +16,72 @@
 }
 
 .footNote {
-  color: var(--Black10);
+  color: var(--Black);
   text-align: right;
   cursor: pointer;
   margin: 0;
 }
 
 .openGLPathfinderCard {
-  background-color: #770000;
+  background-color: #ffcbcb;
 }
 
 .openGLPathfinderCard:hover {
-  background-color: #6b0000;
+  background-color: #ffbbbb;
 }
 
 .rayTracerCard {
-  background-color: #6b0025;
+  background-color: #ffccde;
 }
 
 .rayTracerCard:hover {
-  background-color: #5a0020;
+  background-color: #ffb8d1;
 }
 
 .gyg {
-  background-color: rgb(223, 200, 0, 1);
+  background-color: rgb(255, 245, 150);
 }
 
 .gyg:hover {
-  background-color: rgb(223, 200, 0, 1);
+  background-color: rgb(255, 241, 116);
 }
 
 .gpt {
-  background-color: #113344;
+  background-color: #9edfff;
 }
 
 .gpt:hover {
-  background-color: #002233;
+  background-color: #6dceff;
 }
 
 .origin {
-  background-color: rgb(199, 96, 0);
+  background-color: rgb(255, 201, 150);
 }
 
 .origin:hover {
-  background-color: rgb(185, 90, 0);
+  background-color: rgb(255, 180, 110);
 }
 
 .loap {
-  background-color: rgb(128, 26, 218);
+  background-color: rgb(218, 175, 255);
 }
 
 .loap:hover {
-  background-color: rgb(121, 23, 206);
+  background-color: rgb(210, 158, 255);
 }
 
 .vpeqCard {
-  background-color: rgb(114, 114, 114);
+  background-color: rgb(209, 209, 209);
 }
 
 .vpeqCard:hover {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(201, 201, 201);
 }
 
 .letCommentsAreBadCard {
-  background-color: rgb(218, 141, 26);
+  background-color: rgb(255, 228, 190);
 }
 
 .letCommentsAreBadCard:hover {
-  background-color: rgb(204, 132, 25);
+  background-color: rgb(255, 220, 167);
 }

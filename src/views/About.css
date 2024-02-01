@@ -36,12 +36,18 @@
   }
 
   .aboutContainer {
+    width: min(1280px, 80%);
     flex-flow: column;
   }
 
   .contentContainer {
     text-align: center;
   }
+}
+
+.aboutHeaderText {
+  color: var(--Black);
+  font-weight: 800;
 }
 
 .aboutText {

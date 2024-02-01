@@ -140,7 +140,7 @@ function Projects() {
         >
           <div style={{ width: "fit-content" }}>
             <p onClick={() => window.open("https://github.com/rpuhalovich/rpuhalovich.github.io")} className="footNote">
-              And, of course, this website.
+              And, of course, this little website.
             </p>
           </div>
         </div>
