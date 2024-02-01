@@ -16,7 +16,7 @@
 }
 
 .footNote {
-  color: var(--Black75);
+  color: var(--Black10);
   text-align: right;
   cursor: pointer;
   margin: 0;
@@ -39,11 +39,11 @@
 }
 
 .gyg {
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(196, 176, 0);
 }
 
 .gyg:hover {
-  background-color: rgba(39, 39, 39);
+  background-color: rgb(175, 158, 0);
 }
 
 .gpt {
@@ -71,11 +71,11 @@
 }
 
 .vpeqCard {
-  background-color: rgba(100, 100, 100, 0.4);
+  background-color: rgb(114, 114, 114);
 }
 
 .vpeqCard:hover {
-  background-color: rgba(100, 100, 100, 0.3);
+  background-color: rgb(100, 100, 100);
 }
 
 .letCommentsAreBadCard {
