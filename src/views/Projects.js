@@ -76,7 +76,7 @@ function Projects() {
 
         <RPCard
           className="openGLPathfinderCard"
-          description={"A BFS shortest path algorithm, written in C++ using raw OpenGL."}
+          description={"A BFS shortest path algorithm, written in C++ using OpenGL."}
           header={"OpenGL Pathfinder"}
           imgAlt={"OpenGL Pathfinder"}
           imgHeight={"715"}
