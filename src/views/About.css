@@ -21,13 +21,15 @@
   padding: 2em;
   border-radius: var(--CornerRadius);
 
-  /* --outline-size: 4px;
+  --outline-size: 2.5px;
   outline: var(--outline-size) solid var(--Black90);
-  outline-offset: calc(var(--outline-size) * -1); */
+  outline-offset: calc(var(--outline-size) * -1);
 
   aspect-ratio: 4000/4000;
   background-size: cover;
   background-image: url("./../res/goodPhoto.jpg");
+
+  box-shadow: 2px 2px 4px var(--Black50);
 }
 
 @media screen and (max-width: 750px) {

@@ -5,6 +5,10 @@
   padding: 2em;
   cursor: pointer;
 
+  border-width: 2px;
+  border-color: var(--Black90);
+  border-style: solid;
+
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -16,12 +20,12 @@
   display: flex;
   align-self: center;
 
-  /* box-shadow: 2px 2px 16px var(--Black50); */
+  box-shadow: 2px 2px 4px var(--Black50);
 }
 
 .RPCard:hover {
   transform: scale(1.03);
-  /* box-shadow: 2px 2px 16px var(--Black75); */
+  box-shadow: 2px 2px 8px var(--Black75);
 }
 
 .cardContentContainer {

@@ -3,14 +3,18 @@
   background-color: rgb(255, 239, 216);
   border-radius: var(--CornerRadius);
   padding: 1em;
-  border-color: var(--Black);
-  border-style: none;
+  border-color: var(--Black90);
+  border-style: solid;
   transition: var(--TransitionTime);
+
+  box-shadow: 2px 2px 4px var(--Black50);
 }
 
 .RPButton:hover {
   background-color: rgb(255, 231, 197);
   transition: var(--TransitionTime);
-  /* transform: scale(1.1); */
+  transform: scale(1.1);
   cursor: pointer;
+
+  box-shadow: 2px 2px 8px var(--Black75);
 }
