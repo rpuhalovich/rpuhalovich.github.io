@@ -5,6 +5,7 @@
   padding: 2em;
   cursor: pointer;
 
+  /* TODO: make this a variable */
   border-width: 2px;
   border-color: var(--Black90);
   border-style: solid;

@@ -21,7 +21,7 @@
   padding: 2em;
   border-radius: var(--CornerRadius);
 
-  --outline-size: 2.5px;
+  --outline-size: 2px;
   outline: var(--outline-size) solid var(--Black90);
   outline-offset: calc(var(--outline-size) * -1);
 

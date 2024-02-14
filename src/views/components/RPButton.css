@@ -4,6 +4,8 @@
   border-radius: var(--CornerRadius);
   padding: 1em;
   border-color: var(--Black90);
+
+  border-width: 2px;
   border-style: solid;
   transition: var(--TransitionTime);
 
@@ -11,6 +13,7 @@
 }
 
 .RPButton:hover {
+  border-width: 2px;
   background-color: rgb(255, 231, 197);
   transition: var(--TransitionTime);
   transform: scale(1.1);
