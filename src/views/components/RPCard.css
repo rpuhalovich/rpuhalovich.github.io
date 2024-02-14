@@ -39,11 +39,21 @@
   height: 100%;
   width: auto;
   margin-right: 2em;
+
+  border-radius: var(--CornerRadius);
+  border-width: 2px;
+  border-color: var(--Black90);
+  border-style: solid;
 }
 
 @media screen and (max-width: 750px) {
   .RPCard {
     height: var(--CardHeightNarrow);
+  }
+
+  .RPCard:hover {
+    transform: scale(1);
+    box-shadow: 2px 2px 8px var(--Black75);
   }
 
   .cardContentContainer {
