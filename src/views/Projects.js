@@ -10,9 +10,7 @@ function Projects() {
       <div className="projectsContainer">
         <div className="titleContainer">
           <div className="title">
-            <p className="subHeader">
-              <span className="smolSpace">##</span>Projects - Professional
-            </p>
+            <p className="subHeader">Professional Experience</p>
           </div>
         </div>
 
@@ -56,9 +54,7 @@ function Projects() {
 
         <div className="titleContainer" style={{ marginTop: "2em" }}>
           <div className="title">
-            <p className="subHeader">
-              <span className="smolSpace">##</span>Projects - Personal
-            </p>
+            <p className="subHeader">Personal Projects</p>
           </div>
         </div>
 
