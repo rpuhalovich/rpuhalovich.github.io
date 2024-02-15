@@ -40,6 +40,7 @@
   width: auto;
   margin-right: 2em;
 
+  background-color: var(--Black90);
   border-radius: var(--CornerRadius);
   border-width: 2px;
   border-color: var(--Black90);
