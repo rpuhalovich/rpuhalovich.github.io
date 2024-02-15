@@ -16,7 +16,7 @@ function About() {
           <RPButton style={{ marginRight: "1em" }} onClick={() => window.open("https://github.com/rpuhalovich")}>
             GitHub
           </RPButton>
-          <RPButton onClick={() => window.open("https://www.linkedin.com/in/ryan-puhalovich/")}>Linkedin</RPButton>
+          <RPButton onClick={() => window.open("https://www.linkedin.com/in/ryan-puhalovich/")}>LinkedIn</RPButton>
         </div>
       </div>
     </>
