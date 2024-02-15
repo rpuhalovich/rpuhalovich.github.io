@@ -16,7 +16,7 @@ function Projects() {
 
         <RPCard
           className="gyg"
-          description={"Backend AWS developer on the GYG app."}
+          description={"Backend AWS engineer on the GYG app."}
           header={"Guzman y Gomez"}
           imgAlt={"Guzman y Gomez"}
           imgWidth={"512"}
@@ -28,7 +28,7 @@ function Projects() {
 
         <RPCard
           className="origin"
-          description={"Fullstack developer who built cost forecasting software for Origin Energy."}
+          description={"Fullstack engineer who built cost forecasting software for Origin Energy."}
           header={"Origin Energy"}
           imgAlt={"Origin Energy"}
           imgWidth={"450"}
@@ -41,7 +41,7 @@ function Projects() {
 
         <RPCard
           className="gpt"
-          description={"Fullstack developer on internal permissions auditing software for GPT Group."}
+          description={"Fullstack engineer on internal permissions auditing software for GPT Group."}
           header={"GPT Group"}
           imgAlt={"GPT Group"}
           imgWidth={"500"}
