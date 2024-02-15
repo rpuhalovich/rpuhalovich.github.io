@@ -10,7 +10,7 @@ function Projects() {
       <div className="projectsContainer">
         <div className="titleContainer">
           <div className="title">
-            <p className="subHeader">Professional Experience</p>
+            <p className="subHeader">Work Experience</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ function Projects() {
 
         <div className="titleContainer" style={{ marginTop: "2em" }}>
           <div className="title">
-            <p className="subHeader">Personal Projects</p>
+            <p className="subHeader">Projects</p>
           </div>
         </div>
 
