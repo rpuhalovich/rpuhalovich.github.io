@@ -22,32 +22,32 @@ function Projects() {
           imgWidth={"512"}
           imgHeight={"512"}
           imgSrc={require("./../res/gyg.png")}
-          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          onClick={() => window.open("https://www.guzmanygomez.com.au/the-new-gyg-app-is-here/")}
           tech={"TypeScript;AWS;Serverless"}
         />
 
         <RPCard
           className="origin"
-          description={"Full Stack developer who built cost forecasting software for Origin Energy."}
+          description={"Fullstack developer who built cost forecasting software for Origin Energy."}
           header={"Origin Energy"}
           imgAlt={"Origin Energy"}
           imgWidth={"450"}
           imgHeight={"300"}
           imgSrc={require("./../res/origin.png")}
-          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          onClick={() => window.open("https://www.originenergy.com.au/")}
           style={{ marginTop: "2em" }}
           tech={"JavaScript"}
         />
 
         <RPCard
           className="gpt"
-          description={"Full Stack developer on internal permissions auditing software for GPT Group."}
+          description={"Fullstack developer on internal permissions auditing software for GPT Group."}
           header={"GPT Group"}
           imgAlt={"GPT Group"}
           imgWidth={"500"}
           imgHeight={"290"}
           imgSrc={require("./../res/gpt.png")}
-          onClick={() => window.open("https://github.com/rpuhalovich/life_of_a_programmer.exe")}
+          onClick={() => window.open("https://www.gpt.com.au/")}
           style={{ marginTop: "2em" }}
           tech={"JavaScript"}
         />
