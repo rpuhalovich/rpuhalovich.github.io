@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e944211f.css",
-    "main.js": "/static/js/main.ea7dcf82.js",
+    "main.js": "/static/js/main.531cd3fd.js",
     "static/media/raytracer.png": "/static/media/raytracer.86726142fdb1b53309e4.png",
     "static/media/goodPhoto.jpg": "/static/media/goodPhoto.29874d4c8fb5732bccdd.jpg",
     "static/media/loap.jpg": "/static/media/loap.1041544d452135e1c42c.jpg",
@@ -11,10 +11,10 @@
     "static/media/bilue-logo.jpg": "/static/media/bilue-logo.5750e4c81e02b06b34c1.jpg",
     "index.html": "/index.html",
     "main.e944211f.css.map": "/static/css/main.e944211f.css.map",
-    "main.ea7dcf82.js.map": "/static/js/main.ea7dcf82.js.map"
+    "main.531cd3fd.js.map": "/static/js/main.531cd3fd.js.map"
   },
   "entrypoints": [
     "static/css/main.e944211f.css",
-    "static/js/main.ea7dcf82.js"
+    "static/js/main.531cd3fd.js"
   ]
 }
