@@ -6,7 +6,12 @@ function Hero() {
   return (
     <>
       <p className="title header">Ryan Puhalovich</p>
-      <p className="subHeader">Software Engineer. Not just frontend, and not just backend.</p>
+      <p className="subHeader" style={{ marginBottom: "0em" }}>
+        Software Engineer.
+      </p>
+      <p className="subHeader" style={{ marginTop: ".2em" }}>
+        Not just frontend, not just backend.
+      </p>
     </>
   );
 }

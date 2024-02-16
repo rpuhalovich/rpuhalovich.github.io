@@ -4,7 +4,7 @@
 
 .title {
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "JetBrains Mono", monospace;
   color: var(--Black);
 }
@@ -14,19 +14,23 @@
 }
 
 .subHeader {
-  font-size: 1.3rem;
-  font-weight: 100;
+  font-size: 1.2rem;
+  font-weight: 400;
   font-family: "JetBrains Mono", monospace;
-  color: var(--Black);
+  color: var(--Black75);
   margin-top: 0px;
 }
 
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.8rem;
+  }
+
   .title {
     font-size: 2rem;
   }
 
   .subHeader {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
