@@ -22,7 +22,7 @@ function Projects() {
           imgWidth={"512"}
           imgHeight={"512"}
           imgSrc={require("./../res/bilue-logo.jpg")}
-          onClick={() => window.open("https://bilue.com.au/")}
+          onClick={() => window.open("https://bilue.com.au/gyg-case-study")}
           tech={"TypeScript;AWS;Serverless"}
         />
 
