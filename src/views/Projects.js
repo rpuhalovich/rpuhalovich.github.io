@@ -14,6 +14,20 @@ function Projects() {
           </div>
         </div>
 
+        {/*
+         */}
+        <RPCard
+          className="bilue"
+          description={"Backend engineer working on various things."}
+          header={"Bilue"}
+          imgAlt={"Bilue"}
+          imgWidth={"512"}
+          imgHeight={"512"}
+          imgSrc={require("./../res/bilue-logo.jpg")}
+          onClick={() => window.open("https://bilue.com.au/")}
+          tech={"TypeScript;AWS;Serverless"}
+        />
+
         <RPCard
           className="gyg"
           description={"Backend AWS engineer on the GYG app."}
@@ -23,7 +37,21 @@ function Projects() {
           imgHeight={"512"}
           imgSrc={require("./../res/gyg.png")}
           onClick={() => window.open("https://www.guzmanygomez.com.au/the-new-gyg-app-is-here/")}
+          style={{ marginTop: "2em" }}
           tech={"TypeScript;AWS;Serverless"}
+        />
+
+        <RPCard
+          className="dxc"
+          description={"Fullstack engineer working on various things."}
+          header={"DXC Technology"}
+          imgAlt={"DXC Technology"}
+          imgWidth={"512"}
+          imgHeight={"512"}
+          imgSrc={require("./../res/dxc.jpg")}
+          onClick={() => window.open("https://dxc.com/au/en")}
+          style={{ marginTop: "2em" }}
+          tech={"JavaScript"}
         />
 
         <RPCard
