@@ -14,11 +14,9 @@ function Projects() {
           </div>
         </div>
 
-        {/*
-         */}
         <RPCard
           className="bilue"
-          description={"Backend engineer working on various things."}
+          description={"Backend engineer working on the Guzman y Gomez App and the Australia and US Websites."}
           header={"Bilue"}
           imgAlt={"Bilue"}
           imgWidth={"512"}
@@ -28,7 +26,7 @@ function Projects() {
           tech={"TypeScript;AWS;Serverless"}
         />
 
-        <RPCard
+        {/* <RPCard
           className="gyg"
           description={"Backend AWS engineer on the GYG app."}
           header={"Guzman y Gomez"}
@@ -39,11 +37,11 @@ function Projects() {
           onClick={() => window.open("https://www.guzmanygomez.com.au/the-new-gyg-app-is-here/")}
           style={{ marginTop: "2em" }}
           tech={"TypeScript;AWS;Serverless"}
-        />
+        /> */}
 
         <RPCard
           className="dxc"
-          description={"Fullstack engineer working on various things."}
+          description={"Fullstack engineer working with various companies such as Origin Energy and GPT Group."}
           header={"DXC Technology"}
           imgAlt={"DXC Technology"}
           imgWidth={"512"}
@@ -54,7 +52,7 @@ function Projects() {
           tech={"JavaScript"}
         />
 
-        <RPCard
+        {/* <RPCard
           className="origin"
           description={"Fullstack engineer who built cost forecasting software for Origin Energy."}
           header={"Origin Energy"}
@@ -65,9 +63,9 @@ function Projects() {
           onClick={() => window.open("https://www.originenergy.com.au/")}
           style={{ marginTop: "2em" }}
           tech={"JavaScript"}
-        />
+        /> */}
 
-        <RPCard
+        {/* <RPCard
           className="gpt"
           description={"Fullstack engineer on internal permissions auditing software for GPT Group."}
           header={"GPT Group"}
@@ -78,7 +76,7 @@ function Projects() {
           onClick={() => window.open("https://www.gpt.com.au/")}
           style={{ marginTop: "2em" }}
           tech={"JavaScript"}
-        />
+        /> */}
 
         <div className="titleContainer" style={{ marginTop: "2em" }}>
           <div className="title">
