@@ -4,8 +4,6 @@ import Hero from "./views/Hero";
 import About from "./views/About";
 import Projects from "./views/Projects";
 
-import layerTop from "./res/layer-top.svg";
-
 import "./App.css";
 
 export default function App() {
@@ -15,8 +13,6 @@ export default function App() {
 
   return (
     <>
-      {/* <img src={layerTop} alt="layer top" /> */}
-
       <div className="appContainer">
         <section className="view1">
           <div className="headerContainer">
