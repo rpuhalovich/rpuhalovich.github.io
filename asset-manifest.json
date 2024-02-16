@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb13b76d.css",
-    "main.js": "/static/js/main.cf667d23.js",
+    "main.css": "/static/css/main.e944211f.css",
+    "main.js": "/static/js/main.ea7dcf82.js",
     "static/media/raytracer.png": "/static/media/raytracer.86726142fdb1b53309e4.png",
     "static/media/goodPhoto.jpg": "/static/media/goodPhoto.29874d4c8fb5732bccdd.jpg",
     "static/media/loap.jpg": "/static/media/loap.1041544d452135e1c42c.jpg",
     "static/media/lcabet.jpg": "/static/media/lcabet.dd782c2c3d038ce4ed97.jpg",
     "static/media/vpeq.png": "/static/media/vpeq.f3d0ecd00c75f9b75b07.png",
-    "static/media/gyg.png": "/static/media/gyg.97551d225ad8c23c9de6.png",
-    "static/media/origin.png": "/static/media/origin.28ddf2938cc03e925635.png",
-    "static/media/gpt.png": "/static/media/gpt.5e1db5dd8a4ed44ac230.png",
+    "static/media/dxc.jpg": "/static/media/dxc.76686c5a7c11ef276587.jpg",
+    "static/media/bilue-logo.jpg": "/static/media/bilue-logo.5750e4c81e02b06b34c1.jpg",
     "index.html": "/index.html",
-    "main.cb13b76d.css.map": "/static/css/main.cb13b76d.css.map",
-    "main.cf667d23.js.map": "/static/js/main.cf667d23.js.map"
+    "main.e944211f.css.map": "/static/css/main.e944211f.css.map",
+    "main.ea7dcf82.js.map": "/static/js/main.ea7dcf82.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb13b76d.css",
-    "static/js/main.cf667d23.js"
+    "static/css/main.e944211f.css",
+    "static/js/main.ea7dcf82.js"
   ]
 }
