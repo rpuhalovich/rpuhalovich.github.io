@@ -8,7 +8,7 @@ describe(
     it("screenshots", () => {
       // loading stuff
       Cypress.Screenshot.defaults({ capture: "fullPage", overwrite: true });
-      cy.visit("http://localhost:3000");
+      cy.visit("http://localhost:3001");
 
       // font loading (screenshots can happen before fonts are loaded)
       cy.document().its("fonts.status").should("equal", "loaded");
