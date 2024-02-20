@@ -79,4 +79,10 @@
     max-height: 256px;
     margin-right: 0px;
   }
+
+  /* assumption is that people with a < 580px width device is a touch device */
+  .RPCard:hover {
+    transform: scale(1);
+    box-shadow: 2px 2px 8px var(--Black75);
+  }
 }
