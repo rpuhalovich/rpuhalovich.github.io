@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <div className="appContainer">
+      <div id="appContainer" className="appContainer">
         <section className="view1">
           <div className="headerContainer">
             <div>
