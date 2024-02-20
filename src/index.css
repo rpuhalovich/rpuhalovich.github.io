@@ -53,7 +53,7 @@
 }
 
 .Monospace {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   font-weight: 400;
   font-family: "JetBrains Mono", monospace;
   color: var(--Black);
@@ -134,4 +134,14 @@ body {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  .Monospace {
+    font-size: 0.8rem;
+  }
 }

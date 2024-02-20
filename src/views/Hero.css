@@ -22,11 +22,11 @@
 }
 
 @media screen and (max-width: 600px) {
-  p {
-    font-size: 0.8rem;
-  }
-
   .title {
     font-size: 2rem;
+  }
+
+  .subHeader {
+    font-size: 0.9rem;
   }
 }
