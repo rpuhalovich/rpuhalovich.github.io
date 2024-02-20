@@ -18,20 +18,10 @@ describe(
       cy.get("#appContainer").invoke("css", "opacity", "1");
 
       // screenshots
-      cy.viewport(1920, 1080).wait(100); // eslint-disable-line
-      cy.screenshot("1920x1080");
-
-      cy.viewport(1550, 1080).wait(100); // eslint-disable-line
-      cy.screenshot("1550x1080");
-
-      cy.viewport(1040, 1080).wait(100); // eslint-disable-line
-      cy.screenshot("1040x1080");
-
-      cy.viewport(740, 1080).wait(100); // eslint-disable-line
-      cy.screenshot("740x1080");
-
-      cy.viewport(420, 1080).wait(100); // eslint-disable-line
-      cy.screenshot("420x1080");
+      for (const res of [1920, 1550, 1040, 740, 420]) {
+        cy.viewport(res, 1080).wait(100); // eslint-disable-line
+        cy.screenshot(`${res}`);
+      }
     });
   }
 );
