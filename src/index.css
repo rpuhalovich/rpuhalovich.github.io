@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;400;500;700;800&display=swap");
 
 /* --- Globals --- */
-
 :root {
-  /*
-  --Background: #171717;
-  --Primary: #a11d6a;
-  --Secondary: #951fff;
-  --Linear: linear-gradient(to right, var(--Primary), var(var(--Secondary)));
-  --Error: #e00248;
-*/
   --Background: #111111;
   --Primary: #a11d6a;
   --Secondary: #951fff;
@@ -115,12 +107,6 @@ html {
 }
 
 body {
-  /* background: rgb(98, 0, 42);
-  background: -moz-linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
-  background: -webkit-linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
-  background: linear-gradient(317deg, rgba(98, 0, 42, 1) 0%, rgba(103, 0, 99, 1) 24%, rgba(90, 0, 147, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62002a", endColorstr="#5a0093", GradientType=1); */
-
   background: #fff9ee;
   scrollbar-width: none;
   scroll-behavior: smooth;
@@ -144,4 +130,14 @@ body {
   .Monospace {
     font-size: 0.8rem;
   }
+}
+
+::-moz-selection {
+  background: #fcc16f;
+}
+::-webkit-selection {
+  background: #fcc16f;
+}
+::selection {
+  background: #fcc16f;
 }

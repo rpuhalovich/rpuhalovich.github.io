@@ -14,6 +14,8 @@ function Projects() {
           </div>
         </div>
 
+        {/* TODO: add pb */}
+
         <RPCard
           className="bilue"
           description={"Backend engineer working on the Guzman y Gomez App and the Australia and US Websites."}
@@ -25,19 +27,6 @@ function Projects() {
           onClick={() => window.open("https://bilue.com.au/gyg-case-study")}
           tech={"TypeScript;AWS;Serverless"}
         />
-
-        {/* <RPCard
-          className="gyg"
-          description={"Backend AWS engineer on the GYG app."}
-          header={"Guzman y Gomez"}
-          imgAlt={"Guzman y Gomez"}
-          imgWidth={"512"}
-          imgHeight={"512"}
-          imgSrc={require("./../res/gyg.png")}
-          onClick={() => window.open("https://www.guzmanygomez.com.au/the-new-gyg-app-is-here/")}
-          style={{ marginTop: "2em" }}
-          tech={"TypeScript;AWS;Serverless"}
-        /> */}
 
         <RPCard
           className="dxc"
@@ -51,32 +40,6 @@ function Projects() {
           style={{ marginTop: "2em" }}
           tech={"JavaScript"}
         />
-
-        {/* <RPCard
-          className="origin"
-          description={"Fullstack engineer who built cost forecasting software for Origin Energy."}
-          header={"Origin Energy"}
-          imgAlt={"Origin Energy"}
-          imgWidth={"450"}
-          imgHeight={"300"}
-          imgSrc={require("./../res/origin.png")}
-          onClick={() => window.open("https://www.originenergy.com.au/")}
-          style={{ marginTop: "2em" }}
-          tech={"JavaScript"}
-        /> */}
-
-        {/* <RPCard
-          className="gpt"
-          description={"Fullstack engineer on internal permissions auditing software for GPT Group."}
-          header={"GPT Group"}
-          imgAlt={"GPT Group"}
-          imgWidth={"500"}
-          imgHeight={"290"}
-          imgSrc={require("./../res/gpt.png")}
-          onClick={() => window.open("https://www.gpt.com.au/")}
-          style={{ marginTop: "2em" }}
-          tech={"JavaScript"}
-        /> */}
 
         <div className="titleContainer" style={{ marginTop: "2em" }}>
           <div className="title">
