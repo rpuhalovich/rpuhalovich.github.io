@@ -11,7 +11,7 @@ function About() {
           <div className="selfie" />
         </div>
         <div className="contentContainer">
-          <p className="aboutText">Just a guy who likes to tinker with computers, coffee in hand.</p>
+          <p className="aboutText">Just a guy who likes to tinker with computers.</p>
           <RPButton style={{ marginRight: "1em" }} onClick={() => window.open("https://github.com/rpuhalovich")}>
             GitHub
           </RPButton>
