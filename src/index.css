@@ -133,11 +133,11 @@ body {
 }
 
 ::-moz-selection {
-  background: #fcc16f;
+  background: #ffe2a7;
 }
 ::-webkit-selection {
-  background: #fcc16f;
+  background: #ffe2a7;
 }
 ::selection {
-  background: #fcc16f;
+  background: #ffe2a7;
 }

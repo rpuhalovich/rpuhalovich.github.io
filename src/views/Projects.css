@@ -38,6 +38,14 @@
   background-color: #ffb8d1;
 }
 
+.pb {
+  background-color: #ff7a98;
+}
+
+.pb:hover {
+  background-color: #ff6285;
+}
+
 .bilue {
   background-color: #98d9ff;
 }

@@ -14,17 +14,28 @@ function Projects() {
           </div>
         </div>
 
-        {/* TODO: add pb */}
+        <RPCard
+          className="pb"
+          description={"Backend engineer working on the PointsBet App and Australia and Canada websites."}
+          header={"PointsBet"}
+          imgAlt={"PointsBet"}
+          imgWidth={"512"}
+          imgHeight={"512"}
+          imgSrc={require("./../res/pb.jpg")}
+          onClick={() => window.open("https://pointsbet.com.au")}
+          tech={".NET;Azure;Kubernetes"}
+        />
 
         <RPCard
           className="bilue"
-          description={"Backend engineer working on the Guzman y Gomez App and the Australia and US Websites."}
+          description={"Backend engineer working on the Guzman y Gomez app and Australia and US websites."}
           header={"Bilue"}
           imgAlt={"Bilue"}
-          imgWidth={"512"}
           imgHeight={"512"}
           imgSrc={require("./../res/bilue-logo.jpg")}
+          imgWidth={"512"}
           onClick={() => window.open("https://bilue.com.au/gyg-case-study")}
+          style={{ marginTop: "2em" }}
           tech={"TypeScript;AWS;Serverless"}
         />
 
