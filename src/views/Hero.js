@@ -9,9 +9,6 @@ function Hero() {
       <p className="subHeader" style={{ marginBottom: "0em" }}>
         Software Engineer.
       </p>
-      <p className="subHeader" style={{ marginTop: ".2em" }}>
-        Not just frontend, not just backend.
-      </p>
     </>
   );
 }
