@@ -7,7 +7,7 @@ function Hero() {
     <>
       <p className="title header">Ryan Puhalovich</p>
       <p className="subHeader" style={{ marginBottom: "0em" }}>
-        Software Engineer.
+        Software Engineer
       </p>
     </>
   );
